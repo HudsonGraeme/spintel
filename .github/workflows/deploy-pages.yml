@@ -1,0 +1,58 @@
+name: Build site to /docs
+
+# GitHub Pages is configured to "Deploy from a branch" → main → /docs, which
+# serves the folder as-is (no build). So this workflow rebuilds docs/ whenever the
+# site source changes, and on a schedule to fold in the spins the collector has
+# committed since the last build. It commits docs/ back with [skip ci] so it never
+# retriggers itself (or the collector).
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "radio-airplay-monitor/web/**"
+      - "radio-airplay-monitor/data/stations.json"
+      - ".github/workflows/deploy-pages.yml"
+  schedule:
+    - cron: "17 */6 * * *" # 4×/day: refresh the baked data snapshot
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages-docs
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4 # reads packageManager from web/package.json
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "20"
+          cache: pnpm
+          cache-dependency-path: radio-airplay-monitor/web/pnpm-lock.yaml
+
+      - name: Build site (regenerates data + emits repo-root docs/)
+        working-directory: radio-airplay-monitor/web
+        run: |
+          pnpm install --frozen-lockfile
+          pnpm build
+
+      - name: Commit docs/ if it changed
+        run: |
+          git config user.name "airplay-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs
+          if git diff --cached --quiet; then
+            echo "no site changes"
+            exit 0
+          fi
+          git commit -m "docs: rebuild site $(date -u +%FT%TZ) [skip ci]"
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+          git push origin "HEAD:${GITHUB_REF_NAME}"

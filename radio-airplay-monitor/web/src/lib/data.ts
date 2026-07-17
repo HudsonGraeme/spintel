@@ -47,10 +47,13 @@ async function getJSON<T>(path: string): Promise<T> {
 }
 
 export async function loadDataset(): Promise<Dataset> {
+  // BASE_URL is "/" in dev and "/airmon/" for the GitHub Pages subpath build, so
+  // data URLs resolve correctly under either.
+  const base = import.meta.env.BASE_URL;
   const [spins, stations, meta] = await Promise.all([
-    getJSON<Spin[]>("/data/spins.json"),
-    getJSON<Station[]>("/data/stations.json"),
-    getJSON<Meta>("/data/meta.json"),
+    getJSON<Spin[]>(`${base}data/spins.json`),
+    getJSON<Station[]>(`${base}data/stations.json`),
+    getJSON<Meta>(`${base}data/meta.json`),
   ]);
   const db = await create({ schema });
   if (spins.length) await insertMultiple(db, spins as never[], 500);

@@ -41,16 +41,16 @@ const labelStyle = {
 function FeedTile({ f, refAt }: { f: Feed; refAt: number }) {
   const c = statusColor[f.status] ?? SX.faint;
   return (
-    <Box bg={SX.panel} px={4} py={3} _hover={{ bg: SX.panelHi }}>
+    <Box bg={SX.panel} px={{ base: 3, md: 4 }} py={3} _hover={{ bg: SX.panelHi }}>
       <Flex align="center" gap={2} mb={1}>
-        <Box w="8px" h="8px" borderRadius="full" bg={c} boxShadow={`0 0 8px ${c}`} flexShrink={0} />
-        <Text fontWeight={600} color={SX.text} fontSize="14px" noOfLines={1}>
+        <Box w="6px" h="6px" borderRadius="full" bg={c} flexShrink={0} />
+        <Text fontWeight={600} color={SX.text} fontSize={{ base: "13px", md: "14px" }} noOfLines={1}>
           {f.name}
         </Text>
         <Text
           ml="auto"
           fontFamily={SX.mono}
-          fontSize="10px"
+          fontSize="11px"
           textTransform="uppercase"
           letterSpacing="0.08em"
           color={c}

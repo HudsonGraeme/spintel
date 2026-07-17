@@ -162,10 +162,10 @@ function Dashboard({ data }: { data: Dataset }) {
   const healthRef = data.meta.healthRef || maxAt;
 
   return (
-    <Box minH="100vh" bg={SX.page}>
+    <Box minH="100vh" bg={SX.page} overflowX="hidden">
       <Header />
-      <Container maxW="7xl" py={7}>
-        <VStack align="stretch" spacing={8}>
+      <Container maxW="7xl" py={{ base: 5, md: 7 }} px={{ base: 3, md: 6 }}>
+        <VStack align="stretch" spacing={{ base: 6, md: 8 }}>
           {feeds.length > 0 && (
             <Section>
               <FeedHealth feeds={feeds} refAt={healthRef} />
@@ -291,21 +291,21 @@ function Dashboard({ data }: { data: Dataset }) {
 function Header() {
   return (
     <Box as="header" borderBottomWidth="1px" borderColor={SX.line} bg={SX.page} position="sticky" top={0} zIndex={20} backdropFilter="blur(6px)">
-      <Container maxW="7xl" py={4}>
-        <Flex align="center" justify="space-between" gap={4} flexWrap="wrap">
-          <Flex align="center" gap={3}>
-            <Box w="10px" h="10px" borderRadius="full" bg={SX.accent} boxShadow={`0 0 10px ${SX.accent}`} />
+      <Container maxW="7xl" py={{ base: 3, md: 4 }} px={{ base: 3, md: 6 }}>
+        <Flex align="center" justify="space-between" gap={3} flexWrap="wrap">
+          <Flex align="center" gap={2.5}>
+            <Box w="6px" h="6px" borderRadius="full" bg={SX.accent} />
             <Box>
-              <Heading size="md" letterSpacing="0.28em" fontWeight={700}>
+              <Heading fontSize={{ base: "15px", md: "18px" }} letterSpacing={{ base: "0.18em", md: "0.28em" }} fontWeight={700}>
                 AIRMON
               </Heading>
-              <Text fontFamily={SX.mono} fontSize="10px" color={SX.dim} letterSpacing="0.14em">
+              <Text fontFamily={SX.mono} fontSize="11px" color={SX.dim} letterSpacing="0.12em">
                 CANADIAN RADIO AIRPLAY · TELEMETRY
               </Text>
             </Box>
           </Flex>
           <HStack spacing={3}>
-            <Text fontFamily={SX.mono} fontSize="10px" color={SX.faint} letterSpacing="0.1em" display={{ base: "none", md: "block" }}>
+            <Text fontFamily={SX.mono} fontSize="11px" color={SX.faint} letterSpacing="0.1em" display={{ base: "none", md: "block" }}>
               CC0 · METADATA-ONLY
             </Text>
             <Button
@@ -317,7 +317,7 @@ function Header() {
               bg={SX.accent}
               color={SX.page}
               fontFamily={SX.mono}
-              fontSize="12px"
+              fontSize={{ base: "11px", md: "12px" }}
               letterSpacing="0.06em"
               borderRadius="4px"
               _hover={{ bg: "#63acff" }}
@@ -337,7 +337,7 @@ function Section({ children }: { children: React.ReactNode }) {
 
 function Panel({ title, sub, children }: { title: string; sub?: string; children: React.ReactNode }) {
   return (
-    <Box bg={SX.panel} borderWidth="1px" borderColor={SX.line} borderRadius="4px" p={4}>
+    <Box bg={SX.panel} borderWidth="1px" borderColor={SX.line} borderRadius="4px" p={{ base: 3, md: 4 }} minW={0} overflow="hidden">
       <Flex align="baseline" gap={2} mb={3} flexWrap="wrap">
         <Text {...eyebrow} color={SX.text}>
           {title}
@@ -363,15 +363,15 @@ function Empty() {
 
 function StatTile({ label, value, sub, accent }: { label: string; value: string; sub?: string; accent?: boolean }) {
   return (
-    <Box bg={SX.panel} px={4} py={3} _hover={{ bg: SX.panelHi }}>
-      <Text textTransform="uppercase" letterSpacing="0.1em" fontSize="10px" color={SX.dim}>
+    <Box bg={SX.panel} px={{ base: 3, md: 4 }} py={3} _hover={{ bg: SX.panelHi }}>
+      <Text textTransform="uppercase" letterSpacing="0.1em" fontSize="11px" color={SX.dim}>
         {label}
       </Text>
-      <Text fontFamily={SX.mono} fontSize="26px" fontWeight={600} color={accent ? SX.accent : SX.text} lineHeight="1.2">
+      <Text fontFamily={SX.mono} fontSize={{ base: "19px", md: "26px" }} fontWeight={600} color={accent ? SX.accent : SX.text} lineHeight="1.25">
         {value}
       </Text>
       {sub && (
-        <Text fontFamily={SX.mono} fontSize="10px" color={SX.faint} noOfLines={1}>
+        <Text fontFamily={SX.mono} fontSize="11px" color={SX.faint} noOfLines={1}>
           {sub}
         </Text>
       )}

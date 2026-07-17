@@ -164,7 +164,7 @@ function HeadCell({
       color={active ? SX.text : SX.dim}
       textTransform="uppercase"
       letterSpacing="0.08em"
-      fontSize="10px"
+      fontSize="11px"
       fontWeight={600}
       textAlign={numeric ? "right" : "left"}
       whiteSpace="nowrap"

@@ -23,7 +23,7 @@ GitHub Actions cron (every 10 min)
 
 Cloudflare Pages (on push)
    └─ pnpm build ─► build-data.mjs consolidates NDJSON → static JSON
-                    └─ Vite + React + Chakra app, Orama in-browser search
+                    └─ Vite + React + Chakra app: filters, Recharts graphs, search
 ```
 
 No servers, no database to run, no audio. Two moving parts: a Go binary in CI and
@@ -34,7 +34,7 @@ a static site.
 | Collector | **Go** (stdlib only), run by **GitHub Actions** cron |
 | Store | **git** — month-partitioned NDJSON under `data/spins/` |
 | Frontend | **TypeScript + React + Chakra UI**, built with **Vite** + **pnpm** |
-| Search | **Orama** full-text index, built in the browser from the committed data |
+| Dashboard | **Recharts** graphs + in-memory filters (search, station, source, time window) over the committed data |
 | Hosting | **Cloudflare Pages** |
 
 ### Station adapters (both public, unauthenticated)
@@ -116,8 +116,9 @@ pnpm build     # → web/dist  (runs build-data.mjs, tsc, vite)
 | Package manager | pnpm (via `packageManager` / auto-detected) |
 
 The build reads `../data` and emits `web/public/data/{spins,stations,meta}.json`;
-the app fetches those and builds the Orama index client-side (fine to ~100k+
-spins). For much larger logs, chunk the spin file or persist a prebuilt index.
+the app fetches those and filters/aggregates them in memory (a full scan per
+keystroke is sub-millisecond at this scale). For much larger logs, chunk the spin
+file or precompute the aggregates at build time.
 
 ## Adding a station
 

@@ -35,6 +35,7 @@ import { SharePie, TimelineBars, TopArtistsBar } from "./components/charts";
 import { FeedHealth } from "./components/FeedHealth";
 import { DataGrid } from "./components/DataGrid";
 import { Compare } from "./components/Compare";
+import { Highlights } from "./components/Highlights";
 
 const DOC_URL =
   "https://github.com/HudsonGraeme/airmon/tree/main/radio-airplay-monitor#adding-a-station";
@@ -171,11 +172,9 @@ function Dashboard({ data }: { data: Dataset }) {
       <Header />
       <Container maxW="7xl" py={{ base: 5, md: 7 }} px={{ base: 3, md: 6 }}>
         <VStack align="stretch" spacing={{ base: 6, md: 8 }}>
-          {feeds.length > 0 && (
-            <Section>
-              <FeedHealth feeds={feeds} refAt={healthRef} />
-            </Section>
-          )}
+          <Section>
+            <Highlights spins={data.spins} stations={data.stations} maxAt={maxAt} />
+          </Section>
 
           {/* control bar */}
           <Flex gap={3} flexWrap="wrap" align="center">
@@ -282,6 +281,12 @@ function Dashboard({ data }: { data: Dataset }) {
               {songPie.length ? <SharePie data={songPie} viz={viz} /> : <Empty />}
             </Panel>
           </SimpleGrid>
+
+          {feeds.length > 0 && (
+            <Section>
+              <FeedHealth feeds={feeds} refAt={healthRef} />
+            </Section>
+          )}
 
           <Section>
             <Flex align="baseline" gap={3} mb={3}>

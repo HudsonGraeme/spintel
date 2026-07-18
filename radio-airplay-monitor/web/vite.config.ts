@@ -1,12 +1,10 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// GitHub Pages serves this repo from the branch root, and the built site lives in
-// /docs, so the public URL is https://<user>.github.io/airmon/docs/ and every
-// asset + data URL must carry that prefix. Change to "/" for a root deploy
-// (Cloudflare Pages or a custom domain), or "/airmon/" if Pages is pointed at the
-// /docs folder directly.
-const base = "/airmon/docs/";
+// GitHub Pages is configured to deploy from the /docs folder as the site root, so
+// the public URL is https://<user>.github.io/airmon/ and asset + data URLs carry
+// the repo-name prefix. Use "/" for a root/custom-domain deploy.
+const base = "/airmon/";
 
 export default defineConfig({
   base,

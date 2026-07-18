@@ -63,6 +63,87 @@ export function timeBuckets(spins: Spin[], start: number, end: number): {
   return { buckets, stepSec, unit };
 }
 
+function bucketing(start: number, end: number) {
+  const spanDays = (end - start) / 86400;
+  const unit: "hour" | "day" | "week" = spanDays <= 8 ? "hour" : spanDays <= 90 ? "day" : "week";
+  const stepSec = unit === "hour" ? 3600 : unit === "day" ? 86400 : 604800;
+  return { unit, stepSec };
+}
+
+// A stacked time series: one row per bucket carrying a count column per station,
+// plus a `partial` flag on the final bucket (the current period hasn't ended, so
+// its total is naturally lower — the UI dims it rather than letting it read as a
+// drop).
+export interface StackRow {
+  label: string;
+  t: number;
+  total: number;
+  partial: boolean;
+  [stationId: string]: number | string | boolean;
+}
+export function stationTimeSeries(
+  spins: Spin[],
+  start: number,
+  end: number,
+  stationIds: string[],
+  fmt: (t: number, unit: "hour" | "day" | "week") => string
+): { rows: StackRow[]; unit: "hour" | "day" | "week" } {
+  const { unit, stepSec } = bucketing(start, end);
+  const first = Math.floor(start / stepSec) * stepSec;
+  const lastStart = Math.floor(end / stepSec) * stepSec;
+  const byBucket = new Map<number, Map<string, number>>();
+  for (const sp of spins) {
+    const b = Math.floor(sp.at / stepSec) * stepSec;
+    let m = byBucket.get(b);
+    if (!m) byBucket.set(b, (m = new Map()));
+    m.set(sp.s, (m.get(sp.s) || 0) + 1);
+  }
+  const rows: StackRow[] = [];
+  for (let t = first; t <= end; t += stepSec) {
+    const m = byBucket.get(t);
+    const row: StackRow = { label: fmt(t, unit), t, total: 0, partial: t === lastStart };
+    for (const id of stationIds) {
+      const c = m?.get(id) || 0;
+      row[id] = c;
+      row.total += c;
+    }
+    rows.push(row);
+  }
+  return { rows, unit };
+}
+
+// Distribution of artist shares across the whole view, for outlier context: a
+// selected artist's share can be compared against the field mean ± std dev.
+export interface ArtistDist {
+  total: number;
+  n: number; // distinct artists
+  mean: number; // mean share (= 1/n)
+  std: number; // std dev of shares
+  byKey: Map<string, { display: string; spins: number; share: number }>;
+}
+export function artistDistribution(spins: Spin[]): ArtistDist {
+  const by = new Map<string, { display: string; spins: number }>();
+  for (const sp of spins) {
+    const k = normArtist(sp.a);
+    if (!k) continue;
+    const cur = by.get(k) || { display: sp.a, spins: 0 };
+    cur.spins++;
+    by.set(k, cur);
+  }
+  const total = spins.length || 1;
+  const n = by.size || 1;
+  const mean = 1 / n;
+  let varSum = 0;
+  const byKey = new Map<string, { display: string; spins: number; share: number }>();
+  for (const [k, v] of by) {
+    const share = v.spins / total;
+    varSum += (share - mean) ** 2;
+    byKey.set(k, { display: v.display, spins: v.spins, share });
+  }
+  const std = Math.sqrt(varSum / n);
+  return { total, n, mean, std, byKey };
+}
+
 export interface ArtistCount {
   artist: string; // display form (most common casing seen)
   spins: number;

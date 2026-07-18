@@ -19,9 +19,10 @@ import {
 import { loadDataset, type Dataset } from "./lib/data";
 import {
   applyFilters,
+  artistDistribution,
   normArtist,
   perStationCounts,
-  timeBuckets,
+  stationTimeSeries,
   topArtists,
   topSongs,
   type Filters,
@@ -30,9 +31,10 @@ import {
 } from "./lib/agg";
 import { useViz } from "./lib/viz";
 import { SX } from "./lib/ui";
-import { SharePie, TimelineArea, TopArtistsBar, type TimePoint } from "./components/charts";
+import { SharePie, TimelineBars, TopArtistsBar } from "./components/charts";
 import { FeedHealth } from "./components/FeedHealth";
 import { DataGrid } from "./components/DataGrid";
+import { Compare } from "./components/Compare";
 
 const DOC_URL =
   "https://github.com/HudsonGraeme/airmon/tree/main/radio-airplay-monitor#adding-a-station";
@@ -106,6 +108,9 @@ function Dashboard({ data }: { data: Dataset }) {
   const [source, setSource] = useState<Source>("all");
   const [win, setWin] = useState(3); // default ALL
   const [focus, setFocus] = useState("all");
+  const [compare, setCompare] = useState<string[]>([]);
+  const toggleCompare = (a: string) =>
+    setCompare((c) => (c.includes(a) ? c.filter((x) => x !== a) : [...c, a]));
 
   const maxAt = data.meta.dateRange ? data.meta.dateRange[1] : 0;
   const minAt = data.meta.dateRange ? data.meta.dateRange[0] : 0;
@@ -124,18 +129,19 @@ function Dashboard({ data }: { data: Dataset }) {
     [data.spins, term, source, sinceDays, maxAt]
   );
 
-  const { timeline, timeUnit } = useMemo(() => {
+  const { stackRows, timeUnit } = useMemo(() => {
     const start = sinceDays != null ? Math.max(minAt, maxAt - sinceDays * 86400) : minAt;
-    const { buckets, unit } = timeBuckets(scoped, start, maxAt);
-    const fmt = (t: number) =>
+    const fmt = (t: number, unit: "hour" | "day" | "week") =>
       unit === "hour"
         ? new Date(t * 1000).toLocaleString(undefined, { month: "short", day: "numeric", hour: "2-digit" })
         : new Date(t * 1000).toLocaleDateString(undefined, { month: "short", day: "numeric" });
-    const points: TimePoint[] = buckets.map((b) => ({ label: fmt(b.t), count: b.count }));
-    return { timeline: points, timeUnit: unit };
-  }, [scoped, sinceDays, minAt, maxAt]);
+    const { rows, unit } = stationTimeSeries(scoped, start, maxAt, data.stations.map((s) => s.id), fmt);
+    return { stackRows: rows, timeUnit: unit };
+  }, [scoped, sinceDays, minAt, maxAt, data.stations]);
 
   const artistBars = useMemo(() => topArtists(scoped, 12), [scoped]);
+  const dist = useMemo(() => artistDistribution(scoped), [scoped]);
+  const compareSel = useMemo(() => new Set(compare), [compare]);
   const artistPie = useMemo(
     () => mixSlices(topArtists(scoped, 6).map((a) => ({ name: a.artist, value: a.spins }))),
     [scoped]
@@ -238,13 +244,17 @@ function Dashboard({ data }: { data: Dataset }) {
             <StatTile label="Window" value={WINDOWS[win].label} sub={`updated ${new Date(data.meta.generatedAt).toLocaleString()}`} />
           </SimpleGrid>
 
-          <Panel title="Airplay over time" sub={`spins per ${timeUnit}`}>
-            {scoped.length ? <TimelineArea data={timeline} viz={viz} unit={timeUnit} /> : <Empty />}
+          <Panel title="Airplay over time" sub={`stacked by station · spins per ${timeUnit} · current period dimmed`}>
+            {scoped.length ? <TimelineBars rows={stackRows} stations={data.stations} viz={viz} /> : <Empty />}
           </Panel>
 
           <SimpleGrid columns={{ base: 1, lg: 2 }} spacing={6}>
-            <Panel title="Top artists" sub="most-played in view">
-              {artistBars.length ? <TopArtistsBar data={artistBars} viz={viz} /> : <Empty />}
+            <Panel title="Top artists" sub="click a bar to compare">
+              {artistBars.length ? (
+                <TopArtistsBar data={artistBars} viz={viz} selected={compareSel} onToggle={toggleCompare} />
+              ) : (
+                <Empty />
+              )}
             </Panel>
             <Panel title="Spins by station" sub="click a slice to drill in">
               {stationPie.length ? (
@@ -254,6 +264,15 @@ function Dashboard({ data }: { data: Dataset }) {
               )}
             </Panel>
           </SimpleGrid>
+
+          {compare.length > 0 && (
+            <Compare
+              selected={compare}
+              dist={dist}
+              onRemove={toggleCompare}
+              onClear={() => setCompare([])}
+            />
+          )}
 
           <SimpleGrid columns={{ base: 1, lg: 2 }} spacing={6}>
             <Panel title="Artist mix" sub={`top 6${focus !== "all" ? ` · ${idToName.get(focus)}` : ""}`}>

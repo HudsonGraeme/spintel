@@ -1,38 +1,38 @@
 {
   "chom-977-montreal": {
-    "last_poll_at": 1784577987,
-    "last_ok_at": 1784577987,
-    "last_spin_at": 1784577778,
+    "last_poll_at": 1784582418,
+    "last_ok_at": 1784582418,
+    "last_spin_at": 1784582344,
     "consec_fails": 0
   },
   "chum-1045": {
-    "last_poll_at": 1784577987,
-    "last_ok_at": 1784577987,
-    "last_spin_at": 1784577852,
+    "last_poll_at": 1784582418,
+    "last_ok_at": 1784582418,
+    "last_spin_at": 1784581872,
     "consec_fails": 0
   },
   "the-beat-945-vancouver": {
-    "last_poll_at": 1784577987,
-    "last_ok_at": 1784577987,
-    "last_spin_at": 1784577762,
+    "last_poll_at": 1784582418,
+    "last_ok_at": 1784582418,
+    "last_spin_at": 1784582312,
     "consec_fails": 0
   },
   "virgin-959-montreal": {
-    "last_poll_at": 1784577987,
-    "last_ok_at": 1784577987,
-    "last_spin_at": 1784577926,
+    "last_poll_at": 1784582418,
+    "last_ok_at": 1784582418,
+    "last_spin_at": 1784582269,
     "consec_fails": 0
   },
   "virgin-999-toronto": {
-    "last_poll_at": 1784577987,
-    "last_ok_at": 1784577987,
-    "last_spin_at": 1784577865,
+    "last_poll_at": 1784582418,
+    "last_ok_at": 1784582418,
+    "last_spin_at": 1784582365,
     "consec_fails": 0
   },
   "z1035-toronto": {
-    "last_poll_at": 1784578295,
-    "last_ok_at": 1784578295,
-    "last_spin_at": 1784578030,
+    "last_poll_at": 1784582724,
+    "last_ok_at": 1784582724,
+    "last_spin_at": 1784582419,
     "consec_fails": 0
   }
 }

@@ -22,6 +22,7 @@ import {
   artistDistribution,
   normArtist,
   perStationCounts,
+  stationSimilarity,
   stationTimeSeries,
   topArtists,
   topSongs,
@@ -36,6 +37,7 @@ import { FeedHealth } from "./components/FeedHealth";
 import { DataGrid } from "./components/DataGrid";
 import { Compare } from "./components/Compare";
 import { Highlights } from "./components/Highlights";
+import { StationSimilarity } from "./components/StationSimilarity";
 
 const DOC_URL =
   "https://github.com/HudsonGraeme/airmon/tree/main/radio-airplay-monitor#adding-a-station";
@@ -156,6 +158,7 @@ function Dashboard({ data }: { data: Dataset }) {
     const total = counts.reduce((n, c) => n + c.value, 0);
     return counts.map((c) => ({ name: c.name, value: c.value, pct: total ? (c.value / total) * 100 : 0 }));
   }, [acrossStations, data.stations]);
+  const sim = useMemo(() => stationSimilarity(acrossStations, data.stations), [acrossStations, data.stations]);
 
   const stats = useMemo(() => {
     const artists = new Set(scoped.map((s) => normArtist(s.a))).size;
@@ -281,6 +284,10 @@ function Dashboard({ data }: { data: Dataset }) {
               {songPie.length ? <SharePie data={songPie} viz={viz} /> : <Empty />}
             </Panel>
           </SimpleGrid>
+
+          <Panel title="Station similarity" sub="how much each pair plays the same songs · cosine of song rotations">
+            <StationSimilarity sim={sim} />
+          </Panel>
 
           {feeds.length > 0 && (
             <Section>

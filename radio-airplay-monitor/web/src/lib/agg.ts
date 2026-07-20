@@ -144,6 +144,58 @@ export function artistDistribution(spins: Spin[]): ArtistDist {
   return { total, n, mean, std, byKey };
 }
 
+// How much each pair of stations plays the same songs: cosine similarity of their
+// song-rotation vectors (a station is a vector over "artist|title" → play count).
+// 1.0 = identical rotation, 0 = no shared songs. Reveals playlist "twins" and
+// outliers — e.g. same-owner CHR stations cluster; a rock or dance station drifts.
+export interface SimMatrix {
+  names: string[];
+  short: string[];
+  m: number[][];
+  topPair?: { a: number; b: number; v: number };
+  outlier?: { i: number; avg: number };
+}
+export function stationSimilarity(spins: Spin[], stations: { id: string; name: string }[]): SimMatrix {
+  const vecs = new Map<string, Map<string, number>>();
+  for (const sp of spins) {
+    const key = normArtist(sp.a) + "|" + sp.t.trim().toLowerCase();
+    let v = vecs.get(sp.s);
+    if (!v) vecs.set(sp.s, (v = new Map()));
+    v.set(key, (v.get(key) || 0) + 1);
+  }
+  const active = stations.filter((s) => vecs.has(s.id));
+  const n = active.length;
+  const short = active.map((s) => s.name.match(/[\d.]+/)?.[0] ?? s.name.slice(0, 4));
+  const norms = active.map((s) => {
+    let sq = 0;
+    for (const c of vecs.get(s.id)!.values()) sq += c * c;
+    return Math.sqrt(sq) || 1;
+  });
+  const m: number[][] = Array.from({ length: n }, () => new Array(n).fill(0));
+  let topPair: SimMatrix["topPair"];
+  for (let i = 0; i < n; i++) {
+    m[i][i] = 1;
+    for (let j = i + 1; j < n; j++) {
+      const vi = vecs.get(active[i].id)!;
+      const vj = vecs.get(active[j].id)!;
+      const [small, big] = vi.size <= vj.size ? [vi, vj] : [vj, vi];
+      let dot = 0;
+      for (const [k, c] of small) dot += c * (big.get(k) || 0);
+      const cos = dot / (norms[i] * norms[j]);
+      m[i][j] = m[j][i] = cos;
+      if (!topPair || cos > topPair.v) topPair = { a: i, b: j, v: cos };
+    }
+  }
+  let outlier: SimMatrix["outlier"];
+  for (let i = 0; i < n && n > 1; i++) {
+    let sum = 0;
+    for (let j = 0; j < n; j++) if (j !== i) sum += m[i][j];
+    const avg = sum / (n - 1);
+    if (!outlier || avg < outlier.avg) outlier = { i, avg };
+  }
+  return { names: active.map((s) => s.name), short, m, topPair, outlier };
+}
+
 export interface ArtistCount {
   artist: string; // display form (most common casing seen)
   spins: number;

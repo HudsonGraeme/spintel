@@ -1,332 +1,500 @@
 {
   "89x-windsor": {
-    "last_poll_at": 1784606574,
-    "last_ok_at": 1784606574,
-    "last_spin_at": 1784606458,
+    "last_poll_at": 1784637697,
+    "last_ok_at": 1784637697,
+    "last_spin_at": 1784637623,
     "consec_fails": 0
   },
   "bear-edmonton": {
-    "last_poll_at": 1784606574,
-    "last_ok_at": 1784606574,
-    "last_spin_at": 1784606500,
+    "last_poll_at": 1784637696,
+    "last_ok_at": 1784637696,
+    "last_spin_at": 1784637630,
+    "consec_fails": 0
+  },
+  "beat-915-kitchener": {
+    "last_poll_at": 1784637703,
+    "last_ok_at": 1784637703,
+    "last_spin_at": 1784637120,
+    "consec_fails": 0
+  },
+  "big-101-barrie": {
+    "last_poll_at": 1784637702,
+    "last_ok_at": 1784637702,
+    "last_spin_at": 1784637300,
+    "consec_fails": 0
+  },
+  "big-963-kingston": {
+    "last_poll_at": 1784637702,
+    "last_ok_at": 1784637702,
+    "last_spin_at": 1784637480,
     "consec_fails": 0
   },
   "bnc-bdn-brandon": {
-    "last_poll_at": 1784606576,
-    "last_ok_at": 1784606576,
-    "last_spin_at": 1784606420,
+    "last_poll_at": 1784637700,
+    "last_ok_at": 1784637700,
+    "last_spin_at": 1784637571,
     "consec_fails": 0
   },
   "bnc-frd-fredericton": {
-    "last_poll_at": 1784606574,
-    "last_ok_at": 1784606574,
-    "last_spin_at": 1784606457,
+    "last_poll_at": 1784637696,
+    "last_ok_at": 1784637696,
+    "last_spin_at": 1784637515,
     "consec_fails": 0
   },
   "bnc-kw-kitchener": {
-    "last_poll_at": 1784606575,
-    "last_ok_at": 1784606575,
-    "last_spin_at": 1784606594,
+    "last_poll_at": 1784637698,
+    "last_ok_at": 1784637698,
+    "last_spin_at": 1784637741,
     "consec_fails": 0
   },
   "bnc-mid-midland": {
-    "last_poll_at": 1784606576,
-    "last_ok_at": 1784606576,
-    "last_spin_at": 1784606447,
+    "last_poll_at": 1784637699,
+    "last_ok_at": 1784637699,
+    "last_spin_at": 1784637480,
     "consec_fails": 0
   },
   "bnc-wpg-winnipeg": {
-    "last_poll_at": 1784606574,
-    "last_ok_at": 1784606574,
-    "last_spin_at": 1784605777,
+    "last_poll_at": 1784637696,
+    "last_ok_at": 1784637696,
+    "last_spin_at": 1784636841,
+    "consec_fails": 0
+  },
+  "boom-1019-cornwall": {
+    "last_poll_at": 1784637702,
+    "last_ok_at": 1784637702,
+    "last_spin_at": 1784623920,
+    "consec_fails": 0
+  },
+  "boom-997-ottawa": {
+    "last_poll_at": 1784637703,
+    "last_ok_at": 1784637703,
+    "last_spin_at": 1784637480,
     "consec_fails": 0
   },
   "bx93-london": {
-    "last_poll_at": 1784606575,
-    "last_ok_at": 1784606575,
-    "last_spin_at": 1784606472,
+    "last_poll_at": 1784637698,
+    "last_ok_at": 1784637698,
+    "last_spin_at": 1784637654,
+    "consec_fails": 0
+  },
+  "cfox-vancouver": {
+    "last_poll_at": 1784637703,
+    "last_ok_at": 1784637703,
+    "last_spin_at": 1784636460,
     "consec_fails": 0
   },
   "chom-977-montreal": {
-    "last_poll_at": 1784606259,
-    "last_ok_at": 1784606259,
-    "last_spin_at": 1784606148,
+    "last_poll_at": 1784637379,
+    "last_ok_at": 1784637379,
+    "last_spin_at": 1784636719,
+    "consec_fails": 0
+  },
+  "chuck-925-edmonton": {
+    "last_poll_at": 1784637702,
+    "last_ok_at": 1784637702,
+    "last_spin_at": 1784637420,
     "consec_fails": 0
   },
   "chum-1045": {
-    "last_poll_at": 1784606259,
-    "last_ok_at": 1784606259,
-    "last_spin_at": 1784606187,
+    "last_poll_at": 1784637377,
+    "last_ok_at": 1784637377,
+    "last_spin_at": 1784637095,
     "consec_fails": 0
   },
   "cime-saint-j-r-me": {
-    "last_poll_at": 1784606577,
-    "last_ok_at": 1784606577,
-    "last_spin_at": 1784606418,
+    "last_poll_at": 1784637701,
+    "last_ok_at": 1784637701,
+    "last_spin_at": 1784637630,
+    "consec_fails": 0
+  },
+  "cisn-country-edmonton": {
+    "last_poll_at": 1784637702,
+    "last_ok_at": 1784637702,
+    "last_spin_at": 1784637180,
     "consec_fails": 0
   },
   "cjay-92-calgary": {
-    "last_poll_at": 1784606573,
-    "last_ok_at": 1784606573,
-    "last_spin_at": 1784606542,
+    "last_poll_at": 1784637695,
+    "last_ok_at": 1784637695,
+    "last_spin_at": 1784637464,
     "consec_fails": 0
   },
   "ckoi-montreal": {
-    "last_poll_at": 1784606575,
-    "last_ok_at": 1784606575,
-    "last_spin_at": 1784606409,
+    "last_poll_at": 1784637698,
+    "last_ok_at": 1784637698,
+    "last_spin_at": 1784637493,
+    "consec_fails": 0
+  },
+  "country-104-woodstock": {
+    "last_poll_at": 1784637704,
+    "last_ok_at": 1784637704,
+    "last_spin_at": 1784637120,
+    "consec_fails": 0
+  },
+  "country-105-calgary": {
+    "last_poll_at": 1784637702,
+    "last_ok_at": 1784637702,
+    "last_spin_at": 1784637000,
+    "consec_fails": 0
+  },
+  "dave-1075-kitchener": {
+    "last_poll_at": 1784637703,
+    "last_ok_at": 1784637703,
+    "last_spin_at": 1784627700,
+    "consec_fails": 0
+  },
+  "edge-1021-toronto": {
+    "last_poll_at": 1784637701,
+    "last_ok_at": 1784637701,
+    "last_spin_at": 1784637180,
+    "consec_fails": 0
+  },
+  "edge-1073-calgary": {
+    "last_poll_at": 1784637702,
+    "last_ok_at": 1784637702,
+    "last_spin_at": 1784637600,
     "consec_fails": 0
   },
   "energie-943-montreal": {
-    "last_poll_at": 1784606573,
-    "last_ok_at": 1784606573,
-    "last_spin_at": 1784606141,
+    "last_poll_at": 1784637696,
+    "last_ok_at": 1784637696,
+    "last_spin_at": 1784636952,
     "consec_fails": 0
   },
   "energie-989-quebec": {
-    "last_poll_at": 1784606573,
-    "last_ok_at": 1784606573,
-    "last_spin_at": 1784606351,
+    "last_poll_at": 1784637696,
+    "last_ok_at": 1784637696,
+    "last_spin_at": 1784636993,
+    "consec_fails": 0
+  },
+  "energy-953-hamilton": {
+    "last_poll_at": 1784637702,
+    "last_ok_at": 1784637702,
+    "last_spin_at": 1784627940,
+    "consec_fails": 0
+  },
+  "fm96-london": {
+    "last_poll_at": 1784637703,
+    "last_ok_at": 1784637703,
+    "last_spin_at": 1784637480,
+    "consec_fails": 0
+  },
+  "fresh-1005-peterborough": {
+    "last_poll_at": 1784637703,
+    "last_ok_at": 1784637703,
+    "last_spin_at": 1784637540,
+    "consec_fails": 0
+  },
+  "fresh-1031-stthomas": {
+    "last_poll_at": 1784637703,
+    "last_ok_at": 1784637703,
+    "last_spin_at": 1784627940,
+    "consec_fails": 0
+  },
+  "fresh-1043-kingston": {
+    "last_poll_at": 1784637703,
+    "last_ok_at": 1784637703,
+    "last_spin_at": 1784641140,
+    "consec_fails": 0
+  },
+  "fresh-1045-cornwall": {
+    "last_poll_at": 1784637702,
+    "last_ok_at": 1784637702,
+    "last_spin_at": 1784623920,
+    "consec_fails": 0
+  },
+  "fresh-931-barrie": {
+    "last_poll_at": 1784637701,
+    "last_ok_at": 1784637701,
+    "last_spin_at": 1784637540,
     "consec_fails": 0
   },
   "htz-st-catharines": {
-    "last_poll_at": 1784606576,
-    "last_ok_at": 1784606576,
-    "last_spin_at": 1784606449,
+    "last_poll_at": 1784637700,
+    "last_ok_at": 1784637700,
+    "last_spin_at": 1784637660,
+    "consec_fails": 0
+  },
+  "jump-1069-ottawa": {
+    "last_poll_at": 1784637703,
+    "last_ok_at": 1784637703,
+    "last_spin_at": 1784637480,
     "consec_fails": 0
   },
   "kyk-alma": {
-    "last_poll_at": 1784606577,
-    "last_ok_at": 1784606577,
+    "last_poll_at": 1784637701,
+    "last_ok_at": 1784637701,
     "last_spin_at": 1784606080,
     "consec_fails": 0
   },
+  "magic-1061-guelph": {
+    "last_poll_at": 1784637702,
+    "last_ok_at": 1784637702,
+    "last_spin_at": 1784637540,
+    "consec_fails": 0
+  },
   "mov-frd-fredericton": {
-    "last_poll_at": 1784606574,
-    "last_ok_at": 1784606574,
-    "last_spin_at": 1784606380,
+    "last_poll_at": 1784637697,
+    "last_ok_at": 1784637697,
+    "last_spin_at": 1784637328,
     "consec_fails": 0
   },
   "mov-hfx-halifax": {
-    "last_poll_at": 1784606574,
-    "last_ok_at": 1784606574,
-    "last_spin_at": 1784606390,
+    "last_poll_at": 1784637697,
+    "last_ok_at": 1784637697,
+    "last_spin_at": 1784637262,
     "consec_fails": 0
   },
   "mov-ott-ottawa": {
-    "last_poll_at": 1784606575,
-    "last_ok_at": 1784606575,
-    "last_spin_at": 1784606530,
+    "last_poll_at": 1784637698,
+    "last_ok_at": 1784637698,
+    "last_spin_at": 1784637678,
     "consec_fails": 0
   },
   "mov-van-vancouver": {
-    "last_poll_at": 1784606574,
-    "last_ok_at": 1784606574,
-    "last_spin_at": 1784606412,
+    "last_poll_at": 1784637697,
+    "last_ok_at": 1784637697,
+    "last_spin_at": 1784637642,
     "consec_fails": 0
   },
   "nrj-gat-gatineau": {
-    "last_poll_at": 1784606576,
-    "last_ok_at": 1784606576,
-    "last_spin_at": 1784606960,
+    "last_poll_at": 1784637700,
+    "last_ok_at": 1784637700,
+    "last_spin_at": 1784637687,
     "consec_fails": 0
   },
   "nrj-mag-magog": {
-    "last_poll_at": 1784606575,
-    "last_ok_at": 1784606575,
-    "last_spin_at": 1784606472,
+    "last_poll_at": 1784637699,
+    "last_ok_at": 1784637699,
+    "last_spin_at": 1784637432,
     "consec_fails": 0
   },
   "nrj-rn-rouyn-noranda": {
-    "last_poll_at": 1784606576,
-    "last_ok_at": 1784606576,
-    "last_spin_at": 1784606504,
+    "last_poll_at": 1784637700,
+    "last_ok_at": 1784637700,
+    "last_spin_at": 1784625857,
     "consec_fails": 0
   },
   "nrj-sag-saguenay": {
-    "last_poll_at": 1784606575,
-    "last_ok_at": 1784606575,
-    "last_spin_at": 1784606219,
+    "last_poll_at": 1784637699,
+    "last_ok_at": 1784637699,
+    "last_spin_at": 1784637497,
     "consec_fails": 0
   },
   "nrj-tr-trois-rivi-res": {
-    "last_poll_at": 1784606576,
-    "last_ok_at": 1784606576,
-    "last_spin_at": 1784607652,
+    "last_poll_at": 1784637700,
+    "last_ok_at": 1784637700,
+    "last_spin_at": 1784638460,
     "consec_fails": 0
   },
   "nrj-vd-val-d-or": {
-    "last_poll_at": 1784606576,
-    "last_ok_at": 1784606576,
-    "last_spin_at": 1784608263,
+    "last_poll_at": 1784637700,
+    "last_ok_at": 1784637700,
+    "last_spin_at": 1784639195,
     "consec_fails": 0
   },
   "pc-bdn-brandon": {
-    "last_poll_at": 1784606575,
-    "last_ok_at": 1784606575,
-    "last_spin_at": 1784606382,
+    "last_poll_at": 1784637698,
+    "last_ok_at": 1784637698,
+    "last_spin_at": 1784637636,
     "consec_fails": 0
   },
   "pc-orl-orillia": {
-    "last_poll_at": 1784606574,
-    "last_ok_at": 1784606574,
-    "last_spin_at": 1784606468,
+    "last_poll_at": 1784637697,
+    "last_ok_at": 1784637697,
+    "last_spin_at": 1784637559,
     "consec_fails": 0
   },
   "pc-pem-pembroke": {
-    "last_poll_at": 1784606574,
-    "last_ok_at": 1784606574,
-    "last_spin_at": 1784606478,
+    "last_poll_at": 1784637697,
+    "last_ok_at": 1784637697,
+    "last_spin_at": 1784637442,
     "consec_fails": 0
   },
   "pc-reg-regina": {
-    "last_poll_at": 1784606574,
-    "last_ok_at": 1784606574,
-    "last_spin_at": 1784606383,
+    "last_poll_at": 1784637697,
+    "last_ok_at": 1784637697,
+    "last_spin_at": 1784637542,
     "consec_fails": 0
   },
   "pc-sud-sudbury": {
-    "last_poll_at": 1784606576,
-    "last_ok_at": 1784606576,
-    "last_spin_at": 1784606541,
+    "last_poll_at": 1784637699,
+    "last_ok_at": 1784637699,
+    "last_spin_at": 1784637419,
+    "consec_fails": 0
+  },
+  "peak-951-collingwood": {
+    "last_poll_at": 1784637702,
+    "last_ok_at": 1784637702,
+    "last_spin_at": 1784640960,
     "consec_fails": 0
   },
   "pla-rbv-roberval": {
-    "last_poll_at": 1784606577,
-    "last_ok_at": 1784606577,
-    "last_spin_at": 1784606490,
+    "last_poll_at": 1784637701,
+    "last_ok_at": 1784637701,
+    "last_spin_at": 1784637431,
+    "consec_fails": 0
+  },
+  "power-97-winnipeg": {
+    "last_poll_at": 1784637704,
+    "last_ok_at": 1784637704,
+    "last_spin_at": 1784637480,
     "consec_fails": 0
   },
   "pure-country-94-ottawa": {
-    "last_poll_at": 1784606573,
-    "last_ok_at": 1784606573,
-    "last_spin_at": 1784606399,
+    "last_poll_at": 1784637695,
+    "last_ok_at": 1784637695,
+    "last_spin_at": 1784637268,
+    "consec_fails": 0
+  },
+  "q107-toronto": {
+    "last_poll_at": 1784637701,
+    "last_ok_at": 1784637701,
+    "last_spin_at": 1784637240,
     "consec_fails": 0
   },
   "rge-gat-gatineau": {
-    "last_poll_at": 1784606575,
-    "last_ok_at": 1784606575,
-    "last_spin_at": 1784606608,
+    "last_poll_at": 1784637698,
+    "last_ok_at": 1784637698,
+    "last_spin_at": 1784638085,
     "consec_fails": 0
   },
   "rge-qc-quebec-city": {
-    "last_poll_at": 1784606575,
-    "last_ok_at": 1784606575,
-    "last_spin_at": 1784606216,
+    "last_poll_at": 1784637699,
+    "last_ok_at": 1784637699,
+    "last_spin_at": 1784637592,
     "consec_fails": 0
   },
   "rge-sag-saguenay": {
-    "last_poll_at": 1784606576,
-    "last_ok_at": 1784606576,
-    "last_spin_at": 1784606115,
+    "last_poll_at": 1784637699,
+    "last_ok_at": 1784637699,
+    "last_spin_at": 1784637589,
     "consec_fails": 0
   },
   "rge-tr-trois-rivi-res": {
-    "last_poll_at": 1784606576,
-    "last_ok_at": 1784606576,
-    "last_spin_at": 1784607560,
+    "last_poll_at": 1784637699,
+    "last_ok_at": 1784637699,
+    "last_spin_at": 1784638766,
+    "consec_fails": 0
+  },
+  "rock-101-vancouver": {
+    "last_poll_at": 1784637703,
+    "last_ok_at": 1784637703,
+    "last_spin_at": 1784637600,
     "consec_fails": 0
   },
   "rouge-1073-montreal": {
-    "last_poll_at": 1784606573,
-    "last_ok_at": 1784606573,
-    "last_spin_at": 1784606212,
+    "last_poll_at": 1784637696,
+    "last_ok_at": 1784637696,
+    "last_spin_at": 1784637301,
     "consec_fails": 0
   },
   "ryt-lvl-laval": {
-    "last_poll_at": 1784606575,
-    "last_ok_at": 1784606575,
-    "last_spin_at": 1784606509,
+    "last_poll_at": 1784637698,
+    "last_ok_at": 1784637698,
+    "last_spin_at": 1784637662,
     "consec_fails": 0
   },
   "ryt-sag-saguenay": {
-    "last_poll_at": 1784606576,
-    "last_ok_at": 1784606576,
-    "last_spin_at": 1784606510,
+    "last_poll_at": 1784637701,
+    "last_ok_at": 1784637701,
+    "last_spin_at": 1784637546,
     "consec_fails": 0
   },
   "ryt-shr-sherbrooke": {
-    "last_poll_at": 1784606576,
-    "last_ok_at": 1784606576,
-    "last_spin_at": 1784606509,
+    "last_poll_at": 1784637700,
+    "last_ok_at": 1784637700,
+    "last_spin_at": 1784637582,
     "consec_fails": 0
   },
   "rythme-1029-quebec": {
-    "last_poll_at": 1784606573,
-    "last_ok_at": 1784606573,
-    "last_spin_at": 1784606510,
+    "last_poll_at": 1784637696,
+    "last_ok_at": 1784637696,
+    "last_spin_at": 1784637463,
     "consec_fails": 0
   },
   "the-beat-945-vancouver": {
-    "last_poll_at": 1784606259,
-    "last_ok_at": 1784606259,
-    "last_spin_at": 1784606236,
+    "last_poll_at": 1784637379,
+    "last_ok_at": 1784637379,
+    "last_spin_at": 1784637342,
     "consec_fails": 0
   },
   "virgin-1053-kitchener": {
-    "last_poll_at": 1784606573,
-    "last_ok_at": 1784606573,
-    "last_spin_at": 1784606697,
+    "last_poll_at": 1784637695,
+    "last_ok_at": 1784637695,
+    "last_spin_at": 1784624529,
     "consec_fails": 0
   },
   "virgin-1073-victoria": {
-    "last_poll_at": 1784606573,
-    "last_ok_at": 1784606573,
-    "last_spin_at": 1784606480,
+    "last_poll_at": 1784637695,
+    "last_ok_at": 1784637695,
+    "last_spin_at": 1784637616,
     "consec_fails": 0
   },
   "virgin-959-montreal": {
-    "last_poll_at": 1784606259,
-    "last_ok_at": 1784606259,
-    "last_spin_at": 1784606205,
+    "last_poll_at": 1784637378,
+    "last_ok_at": 1784637378,
+    "last_spin_at": 1784637087,
     "consec_fails": 0
   },
   "virgin-975-london": {
-    "last_poll_at": 1784606573,
-    "last_ok_at": 1784606573,
-    "last_spin_at": 1784606383,
+    "last_poll_at": 1784637695,
+    "last_ok_at": 1784637695,
+    "last_spin_at": 1784637156,
     "consec_fails": 0
   },
   "virgin-999-toronto": {
-    "last_poll_at": 1784606259,
-    "last_ok_at": 1784606259,
-    "last_spin_at": 1784606168,
+    "last_poll_at": 1784637378,
+    "last_ok_at": 1784637378,
+    "last_spin_at": 1784637127,
     "consec_fails": 0
   },
   "vr-cgy-calgary": {
-    "last_poll_at": 1784606574,
-    "last_ok_at": 1784606574,
-    "last_spin_at": 1784606418,
+    "last_poll_at": 1784637697,
+    "last_ok_at": 1784637697,
+    "last_spin_at": 1784637657,
     "consec_fails": 0
   },
   "vr-edm-edmonton": {
-    "last_poll_at": 1784606574,
-    "last_ok_at": 1784606574,
-    "last_spin_at": 1784606445,
+    "last_poll_at": 1784637696,
+    "last_ok_at": 1784637696,
+    "last_spin_at": 1784637434,
     "consec_fails": 0
   },
   "vr-hfx-halifax": {
-    "last_poll_at": 1784606575,
-    "last_ok_at": 1784606575,
-    "last_spin_at": 1784606367,
+    "last_poll_at": 1784637697,
+    "last_ok_at": 1784637697,
+    "last_spin_at": 1784637302,
     "consec_fails": 0
   },
   "vr-wnd-windsor": {
-    "last_poll_at": 1784606576,
-    "last_ok_at": 1784606576,
-    "last_spin_at": 1784606346,
+    "last_poll_at": 1784637700,
+    "last_ok_at": 1784637700,
+    "last_spin_at": 1784637575,
     "consec_fails": 0
   },
   "vr-wpg-winnipeg": {
-    "last_poll_at": 1784606575,
-    "last_ok_at": 1784606575,
-    "last_spin_at": 1784605955,
+    "last_poll_at": 1784637699,
+    "last_ok_at": 1784637699,
+    "last_spin_at": 1784637108,
+    "consec_fails": 0
+  },
+  "wolf-1015-peterborough": {
+    "last_poll_at": 1784637703,
+    "last_ok_at": 1784637703,
+    "last_spin_at": 1784637240,
+    "consec_fails": 0
+  },
+  "y108-hamilton": {
+    "last_poll_at": 1784637702,
+    "last_ok_at": 1784637702,
+    "last_spin_at": 1784627700,
     "consec_fails": 0
   },
   "z1035-toronto": {
-    "last_poll_at": 1784606572,
-    "last_ok_at": 1784606572,
-    "last_spin_at": 1784606406,
+    "last_poll_at": 1784637694,
+    "last_ok_at": 1784637694,
+    "last_spin_at": 1784637632,
     "consec_fails": 0
   }
 }

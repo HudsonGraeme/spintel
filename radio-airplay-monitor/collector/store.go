@@ -58,9 +58,10 @@ type Station struct {
 	Market  string `json:"market"`
 	Owner   string `json:"owner"`
 	Format  string `json:"format"`
-	Adapter string `json:"adapter"`         // registry key, e.g. "triton" | "streamb"
-	Mount   string `json:"mount,omitempty"` // triton mount name
+	Adapter string `json:"adapter"`         // registry key, e.g. "triton" | "streamb" | "corus"
+	Mount   string `json:"mount,omitempty"` // triton mount name; corus call sign (e.g. "CILQFM")
 	URL     string `json:"url,omitempty"`   // streamb endpoint
+	Prov    string `json:"prov,omitempty"`  // province code (ON, BC, ...); used to resolve local timezone
 
 	Strategy     *Strategy `json:"strategy,omitempty"`      // per-station overrides
 	HistoryFetch int       `json:"history_fetch,omitempty"` // deprecated: use strategy.history_fetch

@@ -4,7 +4,7 @@
 
 **An open, CC0 record of what played, when, on which Canadian radio station — facts, not audio.**
 
-[![live](https://img.shields.io/badge/live-hudsongraeme.github.io%2Fairmon-4b9cff)](https://hudsongraeme.github.io/airmon/)
+[![live](https://img.shields.io/badge/live-spintel.ca-4b9cff)](https://spintel.ca/)
 [![collect](https://github.com/HudsonGraeme/airmon/actions/workflows/collect-airplay.yml/badge.svg)](https://github.com/HudsonGraeme/airmon/actions/workflows/collect-airplay.yml)
 [![data: CC0](https://img.shields.io/badge/data-CC0-brightgreen.svg)](#license)
 [![code: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
@@ -21,7 +21,7 @@ Unlike a scraper, airmon reads only the short **text metadata** stations already
 
 No servers, no database to run, no audio. Two moving parts: a Go binary in CI and a static site.
 
-**→ [hudsongraeme.github.io/airmon](https://hudsongraeme.github.io/airmon/)**
+**→ [spintel.ca](https://spintel.ca/)**
 
 ---
 

@@ -719,6 +719,71 @@
       "lat": 43.1741,
       "lon": -79.2151,
       "prov": "ON"
+    },
+    {
+      "id": "ryt-shr-sherbrooke",
+      "name": "Rythme FM 93.7",
+      "short": "RYT-SHR",
+      "market": "Sherbrooke",
+      "owner": "Cogeco",
+      "format": "French AC",
+      "adapter": "triton",
+      "mount": "CFGEFMAAC",
+      "lat": 45.4042,
+      "lon": -71.8579,
+      "prov": "QC"
+    },
+    {
+      "id": "ryt-sag-saguenay",
+      "name": "Rythme 98.3",
+      "short": "RYT-SAG",
+      "market": "Saguenay",
+      "owner": "Cogeco",
+      "format": "French AC",
+      "adapter": "triton",
+      "mount": "CILMFMAAC",
+      "lat": 48.4623,
+      "lon": -71.073,
+      "prov": "QC"
+    },
+    {
+      "id": "cime-saint-j-r-me",
+      "name": "CIME 103.9",
+      "short": "CIME",
+      "market": "Saint-J\u00e9r\u00f4me",
+      "owner": "Cogeco",
+      "format": "French Hot AC",
+      "adapter": "triton",
+      "mount": "CIMEFMAAC",
+      "lat": 45.7714,
+      "lon": -74.0375,
+      "prov": "QC"
+    },
+    {
+      "id": "kyk-alma",
+      "name": "95.7 KYK",
+      "short": "KYK",
+      "market": "Alma",
+      "owner": "Cogeco",
+      "format": "French Rock",
+      "adapter": "triton",
+      "mount": "CKYKFMAAC",
+      "lat": 48.5176,
+      "lon": -71.6365,
+      "prov": "QC"
+    },
+    {
+      "id": "pla-rbv-roberval",
+      "name": "Plan\u00e8te 99.5",
+      "short": "PLA-RBV",
+      "market": "Roberval",
+      "owner": "Cogeco",
+      "format": "French AC",
+      "adapter": "triton",
+      "mount": "CHRLFMAAC",
+      "lat": 48.5363,
+      "lon": -72.1956,
+      "prov": "QC"
     }
   ]
 }

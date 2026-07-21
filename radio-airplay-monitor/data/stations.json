@@ -13,7 +13,10 @@
       "owner": "Bell Media / iHeartRadio Canada",
       "format": "Hot AC",
       "adapter": "triton",
-      "mount": "CHUMFMAAC"
+      "mount": "CHUMFMAAC",
+      "lat": 43.6426,
+      "lon": -79.3871,
+      "prov": "ON"
     },
     {
       "id": "virgin-999-toronto",
@@ -24,7 +27,12 @@
       "format": "CHR / Top 40",
       "adapter": "triton",
       "mount": "CKFMFMAAC",
-      "strategy": { "history_fetch": 40 }
+      "strategy": {
+        "history_fetch": 40
+      },
+      "lat": 43.6434,
+      "lon": -79.3882,
+      "prov": "ON"
     },
     {
       "id": "virgin-959-montreal",
@@ -35,7 +43,12 @@
       "format": "CHR / Top 40",
       "adapter": "triton",
       "mount": "CJFMFMAAC",
-      "strategy": { "history_fetch": 40 }
+      "strategy": {
+        "history_fetch": 40
+      },
+      "lat": 45.5088,
+      "lon": -73.5878,
+      "prov": "QC"
     },
     {
       "id": "chom-977-montreal",
@@ -45,7 +58,10 @@
       "owner": "Bell Media / iHeartRadio Canada",
       "format": "Rock",
       "adapter": "triton",
-      "mount": "CHOMFMAAC"
+      "mount": "CHOMFMAAC",
+      "lat": 45.5098,
+      "lon": -73.5866,
+      "prov": "QC"
     },
     {
       "id": "the-beat-945-vancouver",
@@ -56,7 +72,12 @@
       "format": "CHR / Top 40",
       "adapter": "triton",
       "mount": "CFBTFMAAC",
-      "strategy": { "history_fetch": 40 }
+      "strategy": {
+        "history_fetch": 40
+      },
+      "lat": 49.3667,
+      "lon": -122.9494,
+      "prov": "BC"
     },
     {
       "id": "z1035-toronto",
@@ -67,7 +88,14 @@
       "format": "Rhythmic / Dance CHR",
       "adapter": "streamb",
       "url": "https://evanov.streamb.online/Z1035-CIDC-3087791499/nowplaying",
-      "strategy": { "max_retries": 4, "sample_window_s": 300, "sample_every_s": 20 }
+      "strategy": {
+        "max_retries": 4,
+        "sample_window_s": 300,
+        "sample_every_s": 20
+      },
+      "lat": 43.92,
+      "lon": -80.0,
+      "prov": "ON"
     },
     {
       "id": "virgin-975-london",
@@ -78,7 +106,12 @@
       "format": "CHR / Top 40",
       "adapter": "triton",
       "mount": "CIQMFMAAC",
-      "strategy": { "history_fetch": 40 }
+      "strategy": {
+        "history_fetch": 40
+      },
+      "lat": 42.9849,
+      "lon": -81.2453,
+      "prov": "ON"
     },
     {
       "id": "virgin-1053-kitchener",
@@ -89,7 +122,12 @@
       "format": "CHR / Top 40",
       "adapter": "triton",
       "mount": "CFCAFMAAC",
-      "strategy": { "history_fetch": 40 }
+      "strategy": {
+        "history_fetch": 40
+      },
+      "lat": 43.4516,
+      "lon": -80.4925,
+      "prov": "ON"
     },
     {
       "id": "virgin-1073-victoria",
@@ -100,7 +138,12 @@
       "format": "CHR / Top 40",
       "adapter": "triton",
       "mount": "CHBEFMAAC",
-      "strategy": { "history_fetch": 40 }
+      "strategy": {
+        "history_fetch": 40
+      },
+      "lat": 48.4284,
+      "lon": -123.3656,
+      "prov": "BC"
     },
     {
       "id": "cjay-92-calgary",
@@ -110,7 +153,10 @@
       "owner": "Bell Media",
       "format": "Active Rock",
       "adapter": "triton",
-      "mount": "CJAYFMAAC"
+      "mount": "CJAYFMAAC",
+      "lat": 51.0447,
+      "lon": -114.0719,
+      "prov": "AB"
     },
     {
       "id": "pure-country-94-ottawa",
@@ -120,18 +166,26 @@
       "owner": "Bell Media",
       "format": "Country",
       "adapter": "triton",
-      "mount": "CKKLFMAAC"
+      "mount": "CKKLFMAAC",
+      "lat": 45.4215,
+      "lon": -75.6972,
+      "prov": "ON"
     },
     {
       "id": "energie-943-montreal",
-      "name": "Énergie 94.3",
+      "name": "\u00c9nergie 94.3",
       "short": "NRJ-MTL",
       "market": "Montreal",
       "owner": "Bell Media",
       "format": "French CHR",
       "adapter": "triton",
       "mount": "CKMFFMAAC",
-      "strategy": { "history_fetch": 40 }
+      "strategy": {
+        "history_fetch": 40
+      },
+      "lat": 45.5078,
+      "lon": -73.589,
+      "prov": "QC"
     },
     {
       "id": "rouge-1073-montreal",
@@ -141,18 +195,26 @@
       "owner": "Bell Media",
       "format": "French AC",
       "adapter": "triton",
-      "mount": "CITEFMAAC"
+      "mount": "CITEFMAAC",
+      "lat": 45.5104,
+      "lon": -73.5858,
+      "prov": "QC"
     },
     {
       "id": "energie-989-quebec",
-      "name": "Énergie 98.9",
+      "name": "\u00c9nergie 98.9",
       "short": "NRJ-QC",
       "market": "Quebec City",
       "owner": "Bell Media",
       "format": "French CHR",
       "adapter": "triton",
       "mount": "CHIKFMAAC",
-      "strategy": { "history_fetch": 40 }
+      "strategy": {
+        "history_fetch": 40
+      },
+      "lat": 46.8139,
+      "lon": -71.208,
+      "prov": "QC"
     },
     {
       "id": "rythme-1029-quebec",
@@ -162,7 +224,10 @@
       "owner": "Cogeco",
       "format": "French AC",
       "adapter": "triton",
-      "mount": "CFOMFMAAC"
+      "mount": "CFOMFMAAC",
+      "lat": 46.7867,
+      "lon": -71.145,
+      "prov": "QC"
     }
   ]
 }

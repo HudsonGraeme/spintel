@@ -13,6 +13,9 @@ export interface Station {
   owner: string;
   format: string;
   adapter: string;
+  lat?: number;
+  lon?: number;
+  prov?: string;
 }
 export type FeedStatus = "ok" | "stale" | "down" | "unknown";
 export interface Feed {

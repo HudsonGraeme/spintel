@@ -39,6 +39,9 @@ import { DataGrid } from "./components/DataGrid";
 import { Compare } from "./components/Compare";
 import { Highlights } from "./components/Highlights";
 import { StationSimilarity } from "./components/StationSimilarity";
+import { MapPanel } from "./components/MapPanel";
+
+const CDN_COMMERCIAL = 700; // ballpark commercial radio stations in Canada (CRTC-era est.)
 
 const DOC_URL =
   "https://github.com/HudsonGraeme/airmon/tree/main/radio-airplay-monitor#adding-a-station";
@@ -190,6 +193,11 @@ function Dashboard({ data }: { data: Dataset }) {
   const stationName = useMemo(() => (id: string) => idToName.get(id) ?? id, [idToName]);
   const feeds = data.meta.feeds ?? [];
   const healthRef = data.meta.healthRef || maxAt;
+  const coverage = useMemo(() => {
+    const markets = new Set(data.stations.map((s) => s.market)).size;
+    const provs = new Set(data.stations.map((s) => s.prov).filter(Boolean)).size;
+    return { stations: data.stations.length, markets, provs };
+  }, [data.stations]);
 
   return (
     <Box minH="100vh" bg={SX.page} overflowX="hidden">
@@ -198,6 +206,19 @@ function Dashboard({ data }: { data: Dataset }) {
         <VStack align="stretch" spacing={{ base: 6, md: 8 }}>
           <Section>
             <Highlights spins={data.spins} stations={data.stations} maxAt={maxAt} />
+          </Section>
+
+          <Section>
+            <Flex align="baseline" gap={3} mb={3} flexWrap="wrap">
+              <Text {...eyebrow} color={SX.text}>
+                Coverage
+              </Text>
+              <Text fontFamily={SX.mono} fontSize="11px" color={SX.faint}>
+                {coverage.stations} of ~{CDN_COMMERCIAL} Canadian commercial stations · {coverage.markets} markets
+                · {coverage.provs}/13 provinces &amp; territories
+              </Text>
+            </Flex>
+            <MapPanel stations={data.stations} feeds={feeds} />
           </Section>
 
           {/* control bar */}

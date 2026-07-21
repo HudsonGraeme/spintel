@@ -33,6 +33,27 @@ export const theme = extendTheme({
     global: {
       "html, body, #root": { bg: SX.page, color: SX.text },
       "::selection": { background: "rgba(75,156,255,0.28)" },
+      // dark-theme the Leaflet map chrome to match the app
+      ".leaflet-container": { background: SX.panel, fontFamily: SX.mono },
+      ".leaflet-popup-content-wrapper, .leaflet-popup-tip": {
+        background: "#131318",
+        color: SX.text,
+        borderRadius: "4px",
+        boxShadow: "0 2px 10px rgba(0,0,0,0.5)",
+      },
+      ".leaflet-popup-content": { margin: "9px 12px", fontSize: "12px", lineHeight: "1.5" },
+      ".leaflet-popup-content b": { color: SX.text },
+      ".leaflet-bar a": {
+        background: SX.panelHi,
+        color: SX.text,
+        borderColor: SX.line,
+      },
+      ".leaflet-bar a:hover": { background: SX.line },
+      ".leaflet-control-attribution": {
+        background: "rgba(0,0,0,0.55)",
+        color: SX.faint,
+      },
+      ".leaflet-control-attribution a": { color: SX.dim },
     },
   },
 });

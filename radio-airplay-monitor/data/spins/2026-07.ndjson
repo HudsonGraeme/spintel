@@ -184387,3 +184387,871 @@
 {"s":"country-104-woodstock","a":"Jade Eagleson","t":"Shakin' In Them Boots","at":1785441060,"src":"corus"}
 {"s":"country-104-woodstock","a":"Blake Shelton","t":"Stay Country Or Die Tryin'","at":1785441240,"src":"corus"}
 {"s":"country-104-woodstock","a":"George Birge","t":"Cowboy Songs","at":1785441420,"src":"corus"}
+{"s":"chum-1045","a":"Virginia To Vegas","t":"Lights Out","at":1785441374,"src":"triton"}
+{"s":"chum-1045","a":"Justin Bieber","t":"Daisies","at":1785441598,"src":"triton"}
+{"s":"chum-1045","a":"Felix Cartal","t":"Get What You Give","at":1785441774,"src":"triton"}
+{"s":"chum-1045","a":"Destiny's Child","t":"Bootylicious","at":1785442011,"src":"triton"}
+{"s":"chum-1045","a":"Miley Cyrus","t":"Wrecking Ball","at":1785442189,"src":"triton"}
+{"s":"chum-1045","a":"Tal Bachman","t":"She's So High","at":1785442689,"src":"triton"}
+{"s":"chum-1045","a":"Olivia Dean","t":"So Easy (To Fall In Love)","at":1785442938,"src":"triton"}
+{"s":"chum-1045","a":"Lady Gaga","t":"Alejandro","at":1785443107,"src":"triton"}
+{"s":"chum-1045","a":"The Weeknd","t":"The Hills","at":1785443356,"src":"triton"}
+{"s":"chum-1045","a":"Ne-Yo","t":"Closer","at":1785443642,"src":"triton"}
+{"s":"chum-1045","a":"Alessia Cara","t":"Wild Things","at":1785444162,"src":"triton"}
+{"s":"chum-1045","a":"Britney Spears","t":"Oops!... I Did It Again","at":1785444348,"src":"triton"}
+{"s":"chum-1045","a":"Tyler Shaw","t":"Run To You","at":1785444540,"src":"triton"}
+{"s":"chum-1045","a":"Leann Rimes","t":"Can't Fight The Moonlight","at":1785444732,"src":"triton"}
+{"s":"chum-1045","a":"24k Goldn feat. Iann Dior","t":"Mood","at":1785444943,"src":"triton"}
+{"s":"chum-1045","a":"Rihanna","t":"Only Girl In The World","at":1785445106,"src":"triton"}
+{"s":"virgin-999-toronto","a":"Ariana Grande","t":"No Tears Left To Cry","at":1785441381,"src":"triton"}
+{"s":"virgin-999-toronto","a":"Cameron Whitcomb","t":"Quitter","at":1785441579,"src":"triton"}
+{"s":"virgin-999-toronto","a":"Zara Larsson","t":"Midnight Sun","at":1785441748,"src":"triton"}
+{"s":"virgin-999-toronto","a":"French Montana \u0026 Max B","t":"Ever Since You Left Me","at":1785442024,"src":"triton"}
+{"s":"virgin-999-toronto","a":"Jamie Fine","t":"There You Go","at":1785442161,"src":"triton"}
+{"s":"virgin-999-toronto","a":"Harry Styles","t":"As It Was","at":1785442724,"src":"triton"}
+{"s":"virgin-999-toronto","a":"Alex Sampson","t":"Misery","at":1785442942,"src":"triton"}
+{"s":"virgin-999-toronto","a":"Hozier","t":"Too Sweet","at":1785443108,"src":"triton"}
+{"s":"virgin-999-toronto","a":"Dominic Fike","t":"Babydoll","at":1785443350,"src":"triton"}
+{"s":"virgin-999-toronto","a":"Charlotte Cardin","t":"99 Nights","at":1785443451,"src":"triton"}
+{"s":"virgin-999-toronto","a":"Sombr","t":"Homewrecker","at":1785443678,"src":"triton"}
+{"s":"virgin-999-toronto","a":"The Weeknd","t":"Take My Breath","at":1785443868,"src":"triton"}
+{"s":"virgin-999-toronto","a":"Bruno Mars","t":"Risk It All","at":1785444189,"src":"triton"}
+{"s":"virgin-999-toronto","a":"Adam Rodway","t":"Runaround","at":1785444370,"src":"triton"}
+{"s":"virgin-999-toronto","a":"Billie Eilish","t":"Birds of a Feather","at":1785444495,"src":"triton"}
+{"s":"virgin-999-toronto","a":"Taio Cruz","t":"Dynamite","at":1785444756,"src":"triton"}
+{"s":"virgin-999-toronto","a":"Felix Cartal","t":"The Way","at":1785444965,"src":"triton"}
+{"s":"virgin-999-toronto","a":"Charli XCX","t":"Apple","at":1785445150,"src":"triton"}
+{"s":"virgin-959-montreal","a":"Ariana Grande","t":"No Tears Left To Cry","at":1785441396,"src":"triton"}
+{"s":"virgin-959-montreal","a":"Zara Larsson","t":"Midnight Sun","at":1785441609,"src":"triton"}
+{"s":"virgin-959-montreal","a":"French Montana \u0026 Max B","t":"Ever Since You Left Me","at":1785441889,"src":"triton"}
+{"s":"virgin-959-montreal","a":"Jamie Fine","t":"There You Go","at":1785442024,"src":"triton"}
+{"s":"virgin-959-montreal","a":"Harry Styles","t":"As It Was","at":1785442502,"src":"triton"}
+{"s":"virgin-959-montreal","a":"Alex Sampson","t":"Misery","at":1785442666,"src":"triton"}
+{"s":"virgin-959-montreal","a":"Hozier","t":"Too Sweet","at":1785442838,"src":"triton"}
+{"s":"virgin-959-montreal","a":"Dominic Fike","t":"Babydoll","at":1785443080,"src":"triton"}
+{"s":"virgin-959-montreal","a":"Charlotte Cardin","t":"99 Nights","at":1785443188,"src":"triton"}
+{"s":"virgin-959-montreal","a":"Sombr","t":"Homewrecker","at":1785443410,"src":"triton"}
+{"s":"virgin-959-montreal","a":"The Weeknd","t":"Take My Breath","at":1785443600,"src":"triton"}
+{"s":"virgin-959-montreal","a":"Bruno Mars","t":"Risk It All","at":1785443809,"src":"triton"}
+{"s":"virgin-959-montreal","a":"Adam Rodway","t":"Runaround","at":1785444047,"src":"triton"}
+{"s":"virgin-959-montreal","a":"Billie Eilish","t":"Birds of a Feather","at":1785444174,"src":"triton"}
+{"s":"virgin-959-montreal","a":"Olivia Rodrigo","t":"drop dead","at":1785444388,"src":"triton"}
+{"s":"virgin-959-montreal","a":"Felix Cartal","t":"The Way","at":1785444645,"src":"triton"}
+{"s":"virgin-959-montreal","a":"Charli XCX","t":"Apple","at":1785444824,"src":"triton"}
+{"s":"virgin-959-montreal","a":"Alexander Stewart","t":"Broken By You","at":1785444976,"src":"triton"}
+{"s":"virgin-959-montreal","a":"Olivia Dean","t":"So Easy (To Fall In Love)","at":1785445154,"src":"triton"}
+{"s":"chom-977-montreal","a":"Def Leppard","t":"Rock of Ages","at":1785441480,"src":"triton"}
+{"s":"chom-977-montreal","a":"Pink Floyd","t":"Time","at":1785441828,"src":"triton"}
+{"s":"chom-977-montreal","a":"Finger Eleven","t":"One Thing","at":1785442231,"src":"triton"}
+{"s":"chom-977-montreal","a":"Ozzy Osbourne","t":"Mama, I'm Coming Home","at":1785442440,"src":"triton"}
+{"s":"chom-977-montreal","a":"Talk","t":"Time Machine","at":1785442776,"src":"triton"}
+{"s":"chom-977-montreal","a":"The Fixx","t":"One Thing Leads to Another","at":1785443401,"src":"triton"}
+{"s":"chom-977-montreal","a":"Green Day","t":"Know Your Enemy","at":1785443665,"src":"triton"}
+{"s":"chom-977-montreal","a":"The Tragically Hip","t":"Courage","at":1785443858,"src":"triton"}
+{"s":"chom-977-montreal","a":"Queen \u0026 David Bowie","t":"Under Pressure","at":1785444107,"src":"triton"}
+{"s":"chom-977-montreal","a":"The Smashing Pumpkins","t":"Bullet with Butterfly Wings","at":1785444433,"src":"triton"}
+{"s":"chom-977-montreal","a":"The Pursuit of Happiness","t":"Hard to Laugh","at":1785445062,"src":"triton"}
+{"s":"chom-977-montreal","a":"The Black Keys","t":"Fever","at":1785445228,"src":"triton"}
+{"s":"the-beat-945-vancouver","a":"Alex Porat","t":"Face Like Yours","at":1785441429,"src":"triton"}
+{"s":"the-beat-945-vancouver","a":"Chappell Roan","t":"Pink Pony Club","at":1785441620,"src":"triton"}
+{"s":"the-beat-945-vancouver","a":"Bruno Mars","t":"Risk It All","at":1785441883,"src":"triton"}
+{"s":"the-beat-945-vancouver","a":"The Weeknd","t":"Dancing In The Flames","at":1785442087,"src":"triton"}
+{"s":"the-beat-945-vancouver","a":"Harry Styles","t":"American Girls","at":1785442295,"src":"triton"}
+{"s":"the-beat-945-vancouver","a":"Avril Lavigne","t":"Girlfriend","at":1785442471,"src":"triton"}
+{"s":"the-beat-945-vancouver","a":"Tate McRae","t":"Greedy","at":1785442698,"src":"triton"}
+{"s":"the-beat-945-vancouver","a":"Sombr","t":"Back To Friends","at":1785443085,"src":"triton"}
+{"s":"the-beat-945-vancouver","a":"Drake","t":"Janice STFU","at":1785443277,"src":"triton"}
+{"s":"the-beat-945-vancouver","a":"Shawn Mendes","t":"Treat You Better","at":1785443503,"src":"triton"}
+{"s":"the-beat-945-vancouver","a":"Sabrina Carpenter","t":"House Tour","at":1785443685,"src":"triton"}
+{"s":"the-beat-945-vancouver","a":"Jamie Fine","t":"Home Sick","at":1785443834,"src":"triton"}
+{"s":"the-beat-945-vancouver","a":"Ella Langley","t":"Choosin' Texas","at":1785444004,"src":"triton"}
+{"s":"the-beat-945-vancouver","a":"Olivia Dean","t":"Man I Need","at":1785444558,"src":"triton"}
+{"s":"the-beat-945-vancouver","a":"LOLO","t":"The Punisher","at":1785444737,"src":"triton"}
+{"s":"the-beat-945-vancouver","a":"Liam Payne ft. Quavo","t":"Strip That Down","at":1785444937,"src":"triton"}
+{"s":"the-beat-945-vancouver","a":"The Weeknd","t":"Cry For Me","at":1785445140,"src":"triton"}
+{"s":"z1035-toronto","a":"ULTRA DRIVE @ 5 STREETMIX","t":"ID FEEL THE BEAT WITH FISHER","at":1785445255,"src":"streamb"}
+{"s":"virgin-975-london","a":"Zara Larsson","t":"Midnight Sun","at":1785441630,"src":"triton"}
+{"s":"virgin-975-london","a":"French Montana \u0026 Max B","t":"Ever Since You Left Me","at":1785441925,"src":"triton"}
+{"s":"virgin-975-london","a":"Jamie Fine","t":"There You Go","at":1785442062,"src":"triton"}
+{"s":"virgin-975-london","a":"Harry Styles","t":"As It Was","at":1785442469,"src":"triton"}
+{"s":"virgin-975-london","a":"Ed Sheeran ft. Chance The Rapper \u0026","t":"Cross Me","at":1785442732,"src":"triton"}
+{"s":"virgin-975-london","a":"Hozier","t":"Too Sweet","at":1785442930,"src":"triton"}
+{"s":"virgin-975-london","a":"Dominic Fike","t":"Babydoll","at":1785443171,"src":"triton"}
+{"s":"virgin-975-london","a":"Charlotte Cardin","t":"99 Nights","at":1785443280,"src":"triton"}
+{"s":"virgin-975-london","a":"Sombr","t":"Homewrecker","at":1785443538,"src":"triton"}
+{"s":"virgin-975-london","a":"The Weeknd","t":"Take My Breath","at":1785443728,"src":"triton"}
+{"s":"virgin-975-london","a":"Bruno Mars","t":"Risk It All","at":1785443936,"src":"triton"}
+{"s":"virgin-975-london","a":"Adam Rodway","t":"Runaround","at":1785444183,"src":"triton"}
+{"s":"virgin-975-london","a":"Billie Eilish","t":"Birds of a Feather","at":1785444308,"src":"triton"}
+{"s":"virgin-975-london","a":"Olivia Rodrigo","t":"drop dead","at":1785444542,"src":"triton"}
+{"s":"virgin-975-london","a":"Zara Larsson","t":"Lush Life","at":1785444762,"src":"triton"}
+{"s":"virgin-975-london","a":"Taio Cruz","t":"Dynamite","at":1785444955,"src":"triton"}
+{"s":"virgin-975-london","a":"Olivia Dean","t":"So Easy (To Fall In Love)","at":1785445173,"src":"triton"}
+{"s":"virgin-975-london","a":"Cameron Whitcomb","t":"Kingdom Of Fear","at":1785445394,"src":"triton"}
+{"s":"virgin-1053-kitchener","a":"Zara Larsson","t":"Midnight Sun","at":1785441935,"src":"triton"}
+{"s":"virgin-1053-kitchener","a":"French Montana \u0026 Max B","t":"Ever Since You Left Me","at":1785442231,"src":"triton"}
+{"s":"virgin-1053-kitchener","a":"Jamie Fine","t":"There You Go","at":1785442367,"src":"triton"}
+{"s":"virgin-1053-kitchener","a":"Harry Styles","t":"As It Was","at":1785442705,"src":"triton"}
+{"s":"virgin-1053-kitchener","a":"Ed Sheeran ft. Chance The Rapper \u0026","t":"Cross Me","at":1785442965,"src":"triton"}
+{"s":"virgin-1053-kitchener","a":"Hozier","t":"Too Sweet","at":1785443162,"src":"triton"}
+{"s":"virgin-1053-kitchener","a":"Dominic Fike","t":"Babydoll","at":1785443404,"src":"triton"}
+{"s":"virgin-1053-kitchener","a":"Charlotte Cardin","t":"99 Nights","at":1785443513,"src":"triton"}
+{"s":"virgin-1053-kitchener","a":"Sombr","t":"Homewrecker","at":1785443770,"src":"triton"}
+{"s":"virgin-1053-kitchener","a":"The Weeknd","t":"Take My Breath","at":1785443975,"src":"triton"}
+{"s":"virgin-1053-kitchener","a":"Bruno Mars","t":"Risk It All","at":1785444183,"src":"triton"}
+{"s":"virgin-1053-kitchener","a":"Adam Rodway","t":"Runaround","at":1785444431,"src":"triton"}
+{"s":"virgin-1053-kitchener","a":"Billie Eilish","t":"Birds of a Feather","at":1785444555,"src":"triton"}
+{"s":"virgin-1053-kitchener","a":"Olivia Rodrigo","t":"drop dead","at":1785444790,"src":"triton"}
+{"s":"virgin-1053-kitchener","a":"Benson Boone","t":"Beautiful Things","at":1785445012,"src":"triton"}
+{"s":"virgin-1053-kitchener","a":"Taio Cruz","t":"Dynamite","at":1785445191,"src":"triton"}
+{"s":"virgin-1053-kitchener","a":"Felix Cartal","t":"The Way","at":1785445400,"src":"triton"}
+{"s":"virgin-1053-kitchener","a":"Olivia Dean","t":"So Easy (To Fall In Love)","at":1785445579,"src":"triton"}
+{"s":"virgin-1073-victoria","a":"Chappell Roan","t":"Pink Pony Club","at":1785441631,"src":"triton"}
+{"s":"virgin-1073-victoria","a":"Bruno Mars","t":"Risk It All","at":1785441894,"src":"triton"}
+{"s":"virgin-1073-victoria","a":"The Weeknd","t":"Dancing In The Flames","at":1785442090,"src":"triton"}
+{"s":"virgin-1073-victoria","a":"Harry Styles","t":"American Girls","at":1785442299,"src":"triton"}
+{"s":"virgin-1073-victoria","a":"Avril Lavigne","t":"Girlfriend","at":1785442475,"src":"triton"}
+{"s":"virgin-1073-victoria","a":"Tate McRae","t":"Greedy","at":1785442702,"src":"triton"}
+{"s":"virgin-1073-victoria","a":"Sombr","t":"Back To Friends","at":1785443012,"src":"triton"}
+{"s":"virgin-1073-victoria","a":"Drake","t":"Janice STFU","at":1785443199,"src":"triton"}
+{"s":"virgin-1073-victoria","a":"Shawn Mendes","t":"Treat You Better","at":1785443424,"src":"triton"}
+{"s":"virgin-1073-victoria","a":"Sabrina Carpenter","t":"House Tour","at":1785443606,"src":"triton"}
+{"s":"virgin-1073-victoria","a":"Jamie Fine","t":"Home Sick","at":1785443756,"src":"triton"}
+{"s":"virgin-1073-victoria","a":"Ella Langley","t":"Choosin' Texas","at":1785443926,"src":"triton"}
+{"s":"virgin-1073-victoria","a":"Shawn Desman","t":"Electric","at":1785444147,"src":"triton"}
+{"s":"virgin-1073-victoria","a":"Olivia Dean","t":"Man I Need","at":1785444512,"src":"triton"}
+{"s":"virgin-1073-victoria","a":"LOLO","t":"The Punisher","at":1785444691,"src":"triton"}
+{"s":"virgin-1073-victoria","a":"Liam Payne ft. Quavo","t":"Strip That Down","at":1785444891,"src":"triton"}
+{"s":"virgin-1073-victoria","a":"Zara Larsson","t":"Midnight Sun","at":1785445099,"src":"triton"}
+{"s":"virgin-1073-victoria","a":"Loud Luxury, Two Friends \u0026 Bebe Re","t":"If Only I","at":1785445312,"src":"triton"}
+{"s":"virgin-1073-victoria","a":"Alex Warren","t":"Fever Dream","at":1785445472,"src":"triton"}
+{"s":"cjay-92-calgary","a":"Foo Fighters","t":"The Pretender","at":1785441738,"src":"triton"}
+{"s":"cjay-92-calgary","a":"Big Sugar","t":"All Hell For A Basement","at":1785442093,"src":"triton"}
+{"s":"cjay-92-calgary","a":"Green Day","t":"Good Riddance (Time Of Your Life)","at":1785442320,"src":"triton"}
+{"s":"cjay-92-calgary","a":"Papa Roach","t":"Wake Up Calling","at":1785442720,"src":"triton"}
+{"s":"cjay-92-calgary","a":"Live","t":"All Over You","at":1785442946,"src":"triton"}
+{"s":"cjay-92-calgary","a":"Nickelback","t":"Burn It To The Ground","at":1785443276,"src":"triton"}
+{"s":"cjay-92-calgary","a":"Pink Floyd","t":"Money","at":1785443483,"src":"triton"}
+{"s":"cjay-92-calgary","a":"Finger Eleven","t":"Good Times","at":1785443949,"src":"triton"}
+{"s":"cjay-92-calgary","a":"Killers","t":"Somebody Told Me","at":1785444171,"src":"triton"}
+{"s":"cjay-92-calgary","a":"Trews","t":"Tired Of Waiting","at":1785444701,"src":"triton"}
+{"s":"cjay-92-calgary","a":"Linkin Park","t":"New Divide","at":1785444969,"src":"triton"}
+{"s":"cjay-92-calgary","a":"Offspring","t":"Gone Away","at":1785445310,"src":"triton"}
+{"s":"pure-country-94-ottawa","a":"Luke Combs","t":"She Got The Best Of Me","at":1785441755,"src":"triton"}
+{"s":"pure-country-94-ottawa","a":"Shaboozey","t":"Cowgirl","at":1785441942,"src":"triton"}
+{"s":"pure-country-94-ottawa","a":"High Valley","t":"Fools","at":1785442115,"src":"triton"}
+{"s":"pure-country-94-ottawa","a":"James Barker Band","t":"Just Sayin\u0026apos;","at":1785442315,"src":"triton"}
+{"s":"pure-country-94-ottawa","a":"Ella Langley \u0026amp; Morgan Wallen","t":"I Can\u0026apos;t Love You Anymore","at":1785442514,"src":"triton"}
+{"s":"pure-country-94-ottawa","a":"Jelly Roll","t":"Hands Up","at":1785442975,"src":"triton"}
+{"s":"pure-country-94-ottawa","a":"Jade Eagleson","t":"Close","at":1785443175,"src":"triton"}
+{"s":"pure-country-94-ottawa","a":"Scotty McCreery ft Hootie \u0026amp; The Bl","t":"Bottle Rockets","at":1785443426,"src":"triton"}
+{"s":"pure-country-94-ottawa","a":"Stella Lefty","t":"Boston","at":1785443656,"src":"triton"}
+{"s":"pure-country-94-ottawa","a":"Cameron Whitcomb","t":"Quitter","at":1785443827,"src":"triton"}
+{"s":"pure-country-94-ottawa","a":"Bailey Zimmerman","t":"Chevy Silverado","at":1785444012,"src":"triton"}
+{"s":"pure-country-94-ottawa","a":"Tenille Townes","t":"Somebody\u0026apos;s Daughter","at":1785444225,"src":"triton"}
+{"s":"pure-country-94-ottawa","a":"Cody Johnson","t":"The Fall","at":1785444511,"src":"triton"}
+{"s":"pure-country-94-ottawa","a":"Jameson Rodgers ft. Luke Combs","t":"Cold Beer Calling My Name","at":1785444979,"src":"triton"}
+{"s":"pure-country-94-ottawa","a":"Jason Aldean","t":"Don\u0026apos;t Tell On Me","at":1785445182,"src":"triton"}
+{"s":"pure-country-94-ottawa","a":"Kane Brown","t":"Woman","at":1785445379,"src":"triton"}
+{"s":"pure-country-94-ottawa","a":"Kenny Chesney","t":"Carry On","at":1785445545,"src":"triton"}
+{"s":"energie-943-montreal","a":"Bleu Jeans Bleu","t":"Mini-Putt (radio edit)","at":1785442091,"src":"triton"}
+{"s":"energie-943-montreal","a":"Jonas And The Massive Attraction","t":"Respire","at":1785442471,"src":"triton"}
+{"s":"energie-943-montreal","a":"Pink","t":"So What","at":1785443897,"src":"triton"}
+{"s":"energie-943-montreal","a":"Dire Straits","t":"Sultans Of Swing","at":1785445036,"src":"triton"}
+{"s":"rouge-1073-montreal","a":"Shaboozey","t":"Born To Die","at":1785441716,"src":"triton"}
+{"s":"rouge-1073-montreal","a":"Lady Gaga","t":"The Dead Dance","at":1785441873,"src":"triton"}
+{"s":"rouge-1073-montreal","a":"Mike Demero x Betta Lemme","t":"Dance With The Sun (Olé Olé) vf","at":1785442376,"src":"triton"}
+{"s":"rouge-1073-montreal","a":"Les Trois Accords","t":"Vol à l'étalage","at":1785442770,"src":"triton"}
+{"s":"rouge-1073-montreal","a":"Les Trois Accords","t":"Vol à l'étalage","at":1785442795,"src":"triton"}
+{"s":"rouge-1073-montreal","a":"Zara Larsson ft. Olivier Dion","t":"Only You * (VF)","at":1785443997,"src":"triton"}
+{"s":"rouge-1073-montreal","a":"Mumford \u0026 Sons, Chris Stapleton","t":"Here","at":1785445364,"src":"triton"}
+{"s":"rouge-1073-montreal","a":"Dua Lipa","t":"Levitating","at":1785445548,"src":"triton"}
+{"s":"energie-989-quebec","a":"2026-7-30 16:18:00","t":"NRJ1630.mp3","at":1785443391,"src":"triton"}
+{"s":"energie-989-quebec","a":"2026-7-30 16:32:00","t":"NRJ1653.mp3","at":1785444590,"src":"triton"}
+{"s":"rythme-1029-quebec","a":"Fredz","t":"Je veux","at":1785441637,"src":"triton"}
+{"s":"rythme-1029-quebec","a":"Edward Maya \u0026 Mia Martina","t":"Stereo Love (Main Mix)","at":1785441937,"src":"triton"}
+{"s":"rythme-1029-quebec","a":"Bleu Jeans Bleu","t":"Scotch \u0026 poches","at":1785442110,"src":"triton"}
+{"s":"rythme-1029-quebec","a":"Dasha","t":"Austin (Boots Stop Workin')","at":1785442461,"src":"triton"}
+{"s":"rythme-1029-quebec","a":"Eleven Thirty (11:30)","t":"Ole Ole","at":1785442616,"src":"triton"}
+{"s":"rythme-1029-quebec","a":"LU KALA","t":"Hotter Now","at":1785443368,"src":"triton"}
+{"s":"rythme-1029-quebec","a":"Charlotte Cardin","t":"Feel Good","at":1785443794,"src":"triton"}
+{"s":"rythme-1029-quebec","a":"Mr. Big","t":"To Be with You","at":1785443959,"src":"triton"}
+{"s":"rythme-1029-quebec","a":"Khaled","t":"C’est la vie","at":1785444334,"src":"triton"}
+{"s":"rythme-1029-quebec","a":"RAYE","t":"WHERE IS MY HUSBAND!","at":1785445256,"src":"triton"}
+{"s":"rythme-1029-quebec","a":"Marc Dupré","t":"Où sera le monde","at":1785445453,"src":"triton"}
+{"s":"bear-edmonton","a":"Lenny Kravitz","t":"Are You Gonna Go My Way","at":1785441643,"src":"triton"}
+{"s":"bear-edmonton","a":"Linkin Park","t":"New Divide","at":1785441880,"src":"triton"}
+{"s":"bear-edmonton","a":"Three Days Grace","t":"I Hate Everything About You","at":1785442169,"src":"triton"}
+{"s":"bear-edmonton","a":"Van Halen","t":"Panama","at":1785442391,"src":"triton"}
+{"s":"bear-edmonton","a":"Tea Party","t":"Temptation","at":1785442631,"src":"triton"}
+{"s":"bear-edmonton","a":"Shinedown","t":"Safe And Sound","at":1785442783,"src":"triton"}
+{"s":"bear-edmonton","a":"Nirvana","t":"Come As You Are","at":1785443038,"src":"triton"}
+{"s":"bear-edmonton","a":"Sum 41","t":"Landmines","at":1785443254,"src":"triton"}
+{"s":"bear-edmonton","a":"System Of A Down","t":"Chop Suey!","at":1785443491,"src":"triton"}
+{"s":"bear-edmonton","a":"Sam Roberts","t":"Don't Walk Away Eileen","at":1785443702,"src":"triton"}
+{"s":"bear-edmonton","a":"AC/DC","t":"Shoot To Thrill","at":1785444232,"src":"triton"}
+{"s":"bear-edmonton","a":"Thornley","t":"Come Again","at":1785444603,"src":"triton"}
+{"s":"bear-edmonton","a":"The Warning","t":"Kerosene","at":1785444829,"src":"triton"}
+{"s":"bear-edmonton","a":"Collective Soul","t":"Shine","at":1785445044,"src":"triton"}
+{"s":"bear-edmonton","a":"Guns N' Roses","t":"You Could Be Mine","at":1785445379,"src":"triton"}
+{"s":"vr-edm-edmonton","a":"Zara Larsson","t":"Midnight Sun","at":1785441799,"src":"triton"}
+{"s":"vr-edm-edmonton","a":"Loud Luxury, Two Friends \u0026 Bebe Re","t":"If Only I","at":1785441977,"src":"triton"}
+{"s":"vr-edm-edmonton","a":"Alex Warren","t":"Fever Dream","at":1785442139,"src":"triton"}
+{"s":"vr-edm-edmonton","a":"Preston Pablo","t":"Cause I Do","at":1785442323,"src":"triton"}
+{"s":"vr-edm-edmonton","a":"Ariana Grande","t":"7 Rings","at":1785442481,"src":"triton"}
+{"s":"vr-edm-edmonton","a":"Lu Kala","t":"Hotter Now","at":1785442705,"src":"triton"}
+{"s":"vr-edm-edmonton","a":"Cameron Whitcomb","t":"Kingdom Of Fear","at":1785443038,"src":"triton"}
+{"s":"vr-edm-edmonton","a":"Kx5 ft. Hayla","t":"Escape","at":1785443196,"src":"triton"}
+{"s":"vr-edm-edmonton","a":"Raye","t":"Where Is My Husband","at":1785443378,"src":"triton"}
+{"s":"vr-edm-edmonton","a":"Gracie Abrams","t":"Hit The Wall","at":1785443580,"src":"triton"}
+{"s":"vr-edm-edmonton","a":"Drake","t":"God's Plan","at":1785443773,"src":"triton"}
+{"s":"vr-edm-edmonton","a":"Sombr","t":"Homewrecker","at":1785443956,"src":"triton"}
+{"s":"vr-edm-edmonton","a":"Alexander Stewart","t":"His Problem Instead","at":1785444150,"src":"triton"}
+{"s":"vr-edm-edmonton","a":"Justin Bieber","t":"Daisies","at":1785444517,"src":"triton"}
+{"s":"vr-edm-edmonton","a":"The Beaches","t":"Edge Of The Earth","at":1785444688,"src":"triton"}
+{"s":"vr-edm-edmonton","a":"Olivia Rodrigo","t":"drop dead","at":1785444848,"src":"triton"}
+{"s":"vr-edm-edmonton","a":"Flo Rida ft. Sia","t":"Wild Ones","at":1785445069,"src":"triton"}
+{"s":"vr-edm-edmonton","a":"Chappell Roan","t":"Good Luck, Babe!","at":1785445312,"src":"triton"}
+{"s":"bnc-wpg-winnipeg","a":"Michael Jackson","t":"Black Or White","at":1785441125,"src":"triton"}
+{"s":"bnc-wpg-winnipeg","a":"Tom Cochrane","t":"White Hot","at":1785441282,"src":"triton"}
+{"s":"bnc-wpg-winnipeg","a":"Hall \u0026amp; Oates","t":"Maneater","at":1785441506,"src":"triton"}
+{"s":"bnc-wpg-winnipeg","a":"Sass Jordan","t":"Make You A Believer","at":1785441765,"src":"triton"}
+{"s":"bnc-wpg-winnipeg","a":"Green Day","t":"Boulevard of Broken Dreams","at":1785442056,"src":"triton"}
+{"s":"bnc-wpg-winnipeg","a":"Billy Idol","t":"Dancing With Myself","at":1785442544,"src":"triton"}
+{"s":"bnc-wpg-winnipeg","a":"Bob Seger \u0026amp; The Silver Bullet Band","t":"Old Time Rock \u0026amp; Roll","at":1785442756,"src":"triton"}
+{"s":"bnc-wpg-winnipeg","a":"Tal Bachman","t":"She\u0026apos;s So High","at":1785442952,"src":"triton"}
+{"s":"bnc-wpg-winnipeg","a":"Seal","t":"Kiss From A Rose","at":1785443233,"src":"triton"}
+{"s":"bnc-wpg-winnipeg","a":"Whitney Houston","t":"How Will I Know","at":1785443708,"src":"triton"}
+{"s":"bnc-wpg-winnipeg","a":"Bryan Adams","t":"One Night Love Affair","at":1785443989,"src":"triton"}
+{"s":"bnc-wpg-winnipeg","a":"Maroon 5","t":"This Love","at":1785444254,"src":"triton"}
+{"s":"bnc-wpg-winnipeg","a":"ZZ Top","t":"Gimmie All Your Lovin","at":1785444451,"src":"triton"}
+{"s":"bnc-wpg-winnipeg","a":"Matthew Wilder","t":"Break My Stride","at":1785444698,"src":"triton"}
+{"s":"bnc-wpg-winnipeg","a":"Foo Fighters","t":"My Hero","at":1785444866,"src":"triton"}
+{"s":"bnc-frd-fredericton","a":"Lynyrd Skynyrd","t":"Sweet Home Alabama","at":1785441661,"src":"triton"}
+{"s":"bnc-frd-fredericton","a":"Bellamy Brothers","t":"Let Your Love Flow","at":1785441898,"src":"triton"}
+{"s":"bnc-frd-fredericton","a":"Bachman-Turner Overdrive","t":"Takin' Care of Business","at":1785442087,"src":"triton"}
+{"s":"bnc-frd-fredericton","a":"Queen","t":"Don't Stop Me Now","at":1785442389,"src":"triton"}
+{"s":"bnc-frd-fredericton","a":"Loverboy","t":"Working For The Weekend","at":1785442605,"src":"triton"}
+{"s":"bnc-frd-fredericton","a":"Alice Cooper","t":"School's Out","at":1785442839,"src":"triton"}
+{"s":"bnc-frd-fredericton","a":"Rick James","t":"Super Freak","at":1785443361,"src":"triton"}
+{"s":"bnc-frd-fredericton","a":"Norman Greenbaum","t":"Spirit In The Sky","at":1785443554,"src":"triton"}
+{"s":"bnc-frd-fredericton","a":"Odds","t":"It Falls Apart","at":1785443788,"src":"triton"}
+{"s":"bnc-frd-fredericton","a":"R.E.M.","t":"Man On The Moon","at":1785444012,"src":"triton"}
+{"s":"bnc-frd-fredericton","a":"Twisted Sister","t":"We're Not Gonna Take It","at":1785444592,"src":"triton"}
+{"s":"bnc-frd-fredericton","a":"April Wine","t":"Say Hello","at":1785444801,"src":"triton"}
+{"s":"bnc-frd-fredericton","a":"Hootie \u0026 the Blowfish","t":"I Go Blind","at":1785444984,"src":"triton"}
+{"s":"bnc-frd-fredericton","a":"Cyndi Lauper","t":"Girls Just Want To Have Fun","at":1785445189,"src":"triton"}
+{"s":"bnc-frd-fredericton","a":"EMF","t":"Unbelievable","at":1785445410,"src":"triton"}
+{"s":"pc-reg-regina","a":"Dierks Bentley","t":"Somewhere on a Beach","at":1785441715,"src":"triton"}
+{"s":"pc-reg-regina","a":"Taylor Swift","t":"I Knew It, I Knew You","at":1785441917,"src":"triton"}
+{"s":"pc-reg-regina","a":"Dallas Smith","t":"Make 'Em Like You","at":1785442099,"src":"triton"}
+{"s":"pc-reg-regina","a":"Bailey Zimmerman","t":"Chevy Silverado","at":1785442292,"src":"triton"}
+{"s":"pc-reg-regina","a":"Meghan Patrick","t":"Golden Child","at":1785442538,"src":"triton"}
+{"s":"pc-reg-regina","a":"Jon Pardi","t":"Boots Off","at":1785443021,"src":"triton"}
+{"s":"pc-reg-regina","a":"Gabby Barrett","t":"The Good Ones","at":1785443194,"src":"triton"}
+{"s":"pc-reg-regina","a":"Shaboozey \u0026 Jelly Roll","t":"Amen","at":1785443443,"src":"triton"}
+{"s":"pc-reg-regina","a":"Lainey Wilson","t":"Phone, Keys, Wallet","at":1785443643,"src":"triton"}
+{"s":"pc-reg-regina","a":"Jade Eagleson","t":"Shakin' In Them Boots","at":1785443822,"src":"triton"}
+{"s":"pc-reg-regina","a":"Jason Aldean","t":"Don't Tell On Me","at":1785444029,"src":"triton"}
+{"s":"pc-reg-regina","a":"Brett Kissel","t":"Started With a Song","at":1785444218,"src":"triton"}
+{"s":"pc-reg-regina","a":"Luke Combs","t":"Fast Car","at":1785444467,"src":"triton"}
+{"s":"pc-reg-regina","a":"Keith Urban","t":"John Cougar, John Deer, John 3:16","at":1785445047,"src":"triton"}
+{"s":"pc-reg-regina","a":"Morgan Wallen","t":"Don't We","at":1785445271,"src":"triton"}
+{"s":"pc-reg-regina","a":"Russell Dickerson","t":"Worth Your Wild","at":1785445499,"src":"triton"}
+{"s":"mov-van-vancouver","a":"Dua Lipa","t":"Levitating","at":1785441822,"src":"triton"}
+{"s":"mov-van-vancouver","a":"TLC","t":"Waterfalls","at":1785442023,"src":"triton"}
+{"s":"mov-van-vancouver","a":"Jamie Fine","t":"Homesick","at":1785442247,"src":"triton"}
+{"s":"mov-van-vancouver","a":"Adele","t":"Set Fire To The Rain","at":1785442392,"src":"triton"}
+{"s":"mov-van-vancouver","a":"Bulow","t":"Sweet Little Lies","at":1785442690,"src":"triton"}
+{"s":"mov-van-vancouver","a":"Devon Cole","t":"I Got You","at":1785443173,"src":"triton"}
+{"s":"mov-van-vancouver","a":"Rihanna","t":"Disturbia","at":1785443369,"src":"triton"}
+{"s":"mov-van-vancouver","a":"Alessia Cara","t":"Wild Things","at":1785443606,"src":"triton"}
+{"s":"mov-van-vancouver","a":"Taylor Swift","t":"I Knew It, I Knew You","at":1785443800,"src":"triton"}
+{"s":"mov-van-vancouver","a":"Loud Luxury ftg. Brando","t":"Body","at":1785443973,"src":"triton"}
+{"s":"mov-van-vancouver","a":"Britney Spears","t":"(You Drive Me) Crazy","at":1785444142,"src":"triton"}
+{"s":"mov-van-vancouver","a":"Bruno Mars","t":"Marry You","at":1785444632,"src":"triton"}
+{"s":"mov-van-vancouver","a":"Nelly","t":"Just A Dream","at":1785444858,"src":"triton"}
+{"s":"mov-van-vancouver","a":"Nelly Furtado","t":"Powerless (Say What You Want)","at":1785445096,"src":"triton"}
+{"s":"mov-van-vancouver","a":"Justin Bieber","t":"Daisies","at":1785445331,"src":"triton"}
+{"s":"pc-pem-pembroke","a":"Luke Combs","t":"She Got The Best Of Me","at":1785441785,"src":"triton"}
+{"s":"pc-pem-pembroke","a":"Shaboozey","t":"Cowgirl","at":1785441970,"src":"triton"}
+{"s":"pc-pem-pembroke","a":"High Valley","t":"Fools","at":1785442144,"src":"triton"}
+{"s":"pc-pem-pembroke","a":"James Barker Band","t":"Just Sayin'","at":1785442344,"src":"triton"}
+{"s":"pc-pem-pembroke","a":"Ella Langley \u0026 Morgan Wallen","t":"I Can't Love You Anymore","at":1785442552,"src":"triton"}
+{"s":"pc-pem-pembroke","a":"Jelly Roll","t":"Hands Up","at":1785442991,"src":"triton"}
+{"s":"pc-pem-pembroke","a":"Jade Eagleson","t":"Close","at":1785443189,"src":"triton"}
+{"s":"pc-pem-pembroke","a":"Scotty McCreery ft Hootie \u0026 The Bl","t":"Bottle Rockets","at":1785443374,"src":"triton"}
+{"s":"pc-pem-pembroke","a":"Stella Lefty","t":"Boston","at":1785443604,"src":"triton"}
+{"s":"pc-pem-pembroke","a":"Cameron Whitcomb","t":"Quitter","at":1785443775,"src":"triton"}
+{"s":"pc-pem-pembroke","a":"Bailey Zimmerman","t":"Chevy Silverado","at":1785443932,"src":"triton"}
+{"s":"pc-pem-pembroke","a":"Tenille Townes","t":"Somebody's Daughter","at":1785444147,"src":"triton"}
+{"s":"pc-pem-pembroke","a":"Cody Johnson","t":"The Fall","at":1785444406,"src":"triton"}
+{"s":"pc-pem-pembroke","a":"Jameson Rodgers ft. Luke Combs","t":"Cold Beer Calling My Name","at":1785444730,"src":"triton"}
+{"s":"pc-pem-pembroke","a":"Jason Aldean","t":"Don't Tell On Me","at":1785444931,"src":"triton"}
+{"s":"pc-pem-pembroke","a":"Tim Hicks","t":"The Pilot","at":1785445113,"src":"triton"}
+{"s":"pc-pem-pembroke","a":"Kane Brown","t":"Woman","at":1785445312,"src":"triton"}
+{"s":"pc-pem-pembroke","a":"Kenny Chesney","t":"Carry On","at":1785445476,"src":"triton"}
+{"s":"vr-cgy-calgary","a":"Zara Larsson","t":"Midnight Sun","at":1785441643,"src":"triton"}
+{"s":"vr-cgy-calgary","a":"Loud Luxury, Two Friends \u0026 Bebe Re","t":"If Only I","at":1785441846,"src":"triton"}
+{"s":"vr-cgy-calgary","a":"Alex Warren","t":"Fever Dream","at":1785442013,"src":"triton"}
+{"s":"vr-cgy-calgary","a":"Preston Pablo","t":"Cause I Do","at":1785442175,"src":"triton"}
+{"s":"vr-cgy-calgary","a":"Ariana Grande","t":"7 Rings","at":1785442334,"src":"triton"}
+{"s":"vr-cgy-calgary","a":"Lu Kala","t":"Hotter Now","at":1785442528,"src":"triton"}
+{"s":"vr-cgy-calgary","a":"Cameron Whitcomb","t":"Kingdom Of Fear","at":1785443026,"src":"triton"}
+{"s":"vr-cgy-calgary","a":"Kx5 ft. Hayla","t":"Escape","at":1785443184,"src":"triton"}
+{"s":"vr-cgy-calgary","a":"Raye","t":"Where Is My Husband","at":1785443407,"src":"triton"}
+{"s":"vr-cgy-calgary","a":"Gracie Abrams","t":"Hit The Wall","at":1785443609,"src":"triton"}
+{"s":"vr-cgy-calgary","a":"Drake","t":"God's Plan","at":1785443862,"src":"triton"}
+{"s":"vr-cgy-calgary","a":"Sombr","t":"Homewrecker","at":1785444057,"src":"triton"}
+{"s":"vr-cgy-calgary","a":"Olivia Rodrigo","t":"drop dead","at":1785444590,"src":"triton"}
+{"s":"vr-cgy-calgary","a":"The Beaches","t":"Edge Of The Earth","at":1785444807,"src":"triton"}
+{"s":"vr-cgy-calgary","a":"Justin Bieber","t":"Daisies","at":1785444987,"src":"triton"}
+{"s":"vr-cgy-calgary","a":"Pineo \u0026 Loeb Ft. JRDN","t":"Spin","at":1785445161,"src":"triton"}
+{"s":"vr-cgy-calgary","a":"Chappell Roan","t":"Good Luck, Babe!","at":1785445313,"src":"triton"}
+{"s":"vr-cgy-calgary","a":"PinkPantheress ft. Zara Larsson","t":"Stateside","at":1785445542,"src":"triton"}
+{"s":"mov-frd-fredericton","a":"Lady Gaga","t":"Paparazzi","at":1785441809,"src":"triton"}
+{"s":"mov-frd-fredericton","a":"Ne-Yo","t":"Closer","at":1785442024,"src":"triton"}
+{"s":"mov-frd-fredericton","a":"Shawn Mendes","t":"Stitches","at":1785442259,"src":"triton"}
+{"s":"mov-frd-fredericton","a":"Olivia Dean","t":"So Easy (To Fall In Love)","at":1785442469,"src":"triton"}
+{"s":"mov-frd-fredericton","a":"Michael Jackson","t":"The Way You Make Me Feel","at":1785442656,"src":"triton"}
+{"s":"mov-frd-fredericton","a":"David Guetta feat. Sia","t":"Titanium","at":1785443195,"src":"triton"}
+{"s":"mov-frd-fredericton","a":"Avril Lavigne","t":"Complicated","at":1785443408,"src":"triton"}
+{"s":"mov-frd-fredericton","a":"Justin Bieber","t":"Holy","at":1785443658,"src":"triton"}
+{"s":"mov-frd-fredericton","a":"Alessia Cara","t":"Rooting For You","at":1785443834,"src":"triton"}
+{"s":"mov-frd-fredericton","a":"Salt-N-Pepa","t":"Shoop","at":1785444033,"src":"triton"}
+{"s":"mov-frd-fredericton","a":"Jamie Fine","t":"You're Like","at":1785444266,"src":"triton"}
+{"s":"mov-frd-fredericton","a":"Timbaland \u0026 OneRepublic","t":"Apologize","at":1785444472,"src":"triton"}
+{"s":"mov-frd-fredericton","a":"Rihanna","t":"Only Girl In The World","at":1785444940,"src":"triton"}
+{"s":"mov-frd-fredericton","a":"Benson Boone","t":"Beautiful Things","at":1785445197,"src":"triton"}
+{"s":"mov-frd-fredericton","a":"Martin Solveig \u0026 Dragonette","t":"Hello","at":1785445388,"src":"triton"}
+{"s":"pc-orl-orillia","a":"Luke Combs","t":"She Got The Best Of Me","at":1785441732,"src":"triton"}
+{"s":"pc-orl-orillia","a":"Shaboozey","t":"Cowgirl","at":1785441930,"src":"triton"}
+{"s":"pc-orl-orillia","a":"High Valley","t":"Fools","at":1785442111,"src":"triton"}
+{"s":"pc-orl-orillia","a":"James Barker Band","t":"Just Sayin'","at":1785442311,"src":"triton"}
+{"s":"pc-orl-orillia","a":"Ella Langley \u0026 Morgan Wallen","t":"I Can't Love You Anymore","at":1785442529,"src":"triton"}
+{"s":"pc-orl-orillia","a":"Jelly Roll","t":"Hands Up","at":1785443022,"src":"triton"}
+{"s":"pc-orl-orillia","a":"Jade Eagleson","t":"Close","at":1785443219,"src":"triton"}
+{"s":"pc-orl-orillia","a":"Scotty McCreery ft Hootie \u0026 The Bl","t":"Bottle Rockets","at":1785443400,"src":"triton"}
+{"s":"pc-orl-orillia","a":"Stella Lefty","t":"Boston","at":1785443635,"src":"triton"}
+{"s":"pc-orl-orillia","a":"Cameron Whitcomb","t":"Quitter","at":1785443806,"src":"triton"}
+{"s":"pc-orl-orillia","a":"Bailey Zimmerman","t":"Chevy Silverado","at":1785443986,"src":"triton"}
+{"s":"pc-orl-orillia","a":"Tenille Townes","t":"Somebody's Daughter","at":1785444202,"src":"triton"}
+{"s":"pc-orl-orillia","a":"Jason Aldean","t":"Don't Tell On Me","at":1785444894,"src":"triton"}
+{"s":"pc-orl-orillia","a":"Tim Hicks","t":"The Pilot","at":1785445076,"src":"triton"}
+{"s":"pc-orl-orillia","a":"Kane Brown","t":"Woman","at":1785445527,"src":"triton"}
+{"s":"89x-windsor","a":"Sam Roberts","t":"Where Have All The Good People Gone","at":1785441677,"src":"triton"}
+{"s":"89x-windsor","a":"Third Eye Blind","t":"Semi-Charmed Life","at":1785441929,"src":"triton"}
+{"s":"89x-windsor","a":"Noah Kahan","t":"Doors","at":1785442187,"src":"triton"}
+{"s":"89x-windsor","a":"grandson","t":"Dirty","at":1785442413,"src":"triton"}
+{"s":"89x-windsor","a":"Phoenix","t":"1901","at":1785442761,"src":"triton"}
+{"s":"89x-windsor","a":"The Blue Stones","t":"Come Apart","at":1785443016,"src":"triton"}
+{"s":"89x-windsor","a":"Linkin Park","t":"Somewhere I Belong","at":1785443198,"src":"triton"}
+{"s":"89x-windsor","a":"Tonic","t":"If You Could Only See","at":1785443411,"src":"triton"}
+{"s":"89x-windsor","a":"James","t":"Laid","at":1785443706,"src":"triton"}
+{"s":"89x-windsor","a":"Edgehill","t":"Doubletake","at":1785444028,"src":"triton"}
+{"s":"89x-windsor","a":"Angine de Poitrine","t":"Sarniezz","at":1785444264,"src":"triton"}
+{"s":"89x-windsor","a":"Yellowcard","t":"Ocean Avenue","at":1785444540,"src":"triton"}
+{"s":"89x-windsor","a":"Incubus","t":"Drive","at":1785444838,"src":"triton"}
+{"s":"89x-windsor","a":"No Doubt","t":"Spiderwebs","at":1785445070,"src":"triton"}
+{"s":"89x-windsor","a":"Weezer","t":"Beverly Hills","at":1785445299,"src":"triton"}
+{"s":"89x-windsor","a":"Death Cab For Cutie","t":"Riptides","at":1785445494,"src":"triton"}
+{"s":"mov-hfx-halifax","a":"Lady Gaga","t":"Paparazzi","at":1785441552,"src":"triton"}
+{"s":"mov-hfx-halifax","a":"Ne-Yo","t":"Closer","at":1785441836,"src":"triton"}
+{"s":"mov-hfx-halifax","a":"Shawn Mendes","t":"Stitches","at":1785442072,"src":"triton"}
+{"s":"mov-hfx-halifax","a":"Olivia Dean","t":"So Easy (To Fall In Love)","at":1785442282,"src":"triton"}
+{"s":"mov-hfx-halifax","a":"Janet Jackson","t":"When I Think Of You","at":1785442497,"src":"triton"}
+{"s":"mov-hfx-halifax","a":"David Guetta feat. Sia","t":"Titanium","at":1785443003,"src":"triton"}
+{"s":"mov-hfx-halifax","a":"Avril Lavigne","t":"Complicated","at":1785443215,"src":"triton"}
+{"s":"mov-hfx-halifax","a":"Justin Bieber","t":"Holy","at":1785443495,"src":"triton"}
+{"s":"mov-hfx-halifax","a":"Alessia Cara","t":"Rooting For You","at":1785443672,"src":"triton"}
+{"s":"mov-hfx-halifax","a":"Salt-N-Pepa","t":"Shoop","at":1785443849,"src":"triton"}
+{"s":"mov-hfx-halifax","a":"Jamie Fine","t":"You're Like","at":1785444081,"src":"triton"}
+{"s":"mov-hfx-halifax","a":"Timbaland \u0026 OneRepublic","t":"Apologize","at":1785444337,"src":"triton"}
+{"s":"mov-hfx-halifax","a":"Rihanna","t":"Only Girl In The World","at":1785444787,"src":"triton"}
+{"s":"mov-hfx-halifax","a":"Benson Boone","t":"Beautiful Things","at":1785445066,"src":"triton"}
+{"s":"mov-hfx-halifax","a":"Martin Solveig \u0026 Dragonette","t":"Hello","at":1785445244,"src":"triton"}
+{"s":"vr-hfx-halifax","a":"Cameron Whitcomb","t":"Kingdom Of Fear","at":1785441547,"src":"triton"}
+{"s":"vr-hfx-halifax","a":"Banx \u0026 Ranx ft. Rêve","t":"Headphones","at":1785441706,"src":"triton"}
+{"s":"vr-hfx-halifax","a":"Harry Styles","t":"American Girls","at":1785441845,"src":"triton"}
+{"s":"vr-hfx-halifax","a":"Kardinal Offishall ft. Akon","t":"Body Bounce","at":1785442057,"src":"triton"}
+{"s":"vr-hfx-halifax","a":"Drake","t":"Janice STFU","at":1785442296,"src":"triton"}
+{"s":"vr-hfx-halifax","a":"Dua Lipa","t":"Dance The Night","at":1785442506,"src":"triton"}
+{"s":"vr-hfx-halifax","a":"Ariana Grande","t":"hate that i made you love me","at":1785442685,"src":"triton"}
+{"s":"vr-hfx-halifax","a":"Ella Langley","t":"Choosin' Texas","at":1785442920,"src":"triton"}
+{"s":"vr-hfx-halifax","a":"Virginia To Vegas","t":"No Excuses","at":1785443146,"src":"triton"}
+{"s":"vr-hfx-halifax","a":"DJ Khaled ft. Rihanna \u0026 Bryson Til","t":"Wild Thoughts","at":1785443347,"src":"triton"}
+{"s":"vr-hfx-halifax","a":"TALK","t":"Time Machine","at":1785443544,"src":"triton"}
+{"s":"vr-hfx-halifax","a":"Justin Bieber","t":"Yukon","at":1785443773,"src":"triton"}
+{"s":"vr-hfx-halifax","a":"Frank Walker ft. Riley Biederer","t":"Heartbreak Back","at":1785443932,"src":"triton"}
+{"s":"vr-hfx-halifax","a":"Zara Larsson","t":"Midnight Sun","at":1785444173,"src":"triton"}
+{"s":"vr-hfx-halifax","a":"Shaboozey","t":"Cowgirl","at":1785444351,"src":"triton"}
+{"s":"vr-hfx-halifax","a":"The Weeknd","t":"Can't Feel My Face","at":1785444820,"src":"triton"}
+{"s":"vr-hfx-halifax","a":"Sombr","t":"Homewrecker","at":1785445034,"src":"triton"}
+{"s":"vr-hfx-halifax","a":"Sofia Camara","t":"Girls Like You","at":1785445253,"src":"triton"}
+{"s":"bx93-london","a":"Shaboozey","t":"Cowgirl","at":1785441816,"src":"triton"}
+{"s":"bx93-london","a":"High Valley","t":"Fools","at":1785441989,"src":"triton"}
+{"s":"bx93-london","a":"James Barker Band","t":"Just Sayin'","at":1785442186,"src":"triton"}
+{"s":"bx93-london","a":"Ella Langley \u0026 Morgan Wallen","t":"I Can't Love You Anymore","at":1785442385,"src":"triton"}
+{"s":"bx93-london","a":"Jelly Roll","t":"Hands Up","at":1785442756,"src":"triton"}
+{"s":"bx93-london","a":"Jade Eagleson","t":"Close","at":1785442947,"src":"triton"}
+{"s":"bx93-london","a":"Scotty McCreery ft Hootie \u0026 The Bl","t":"Bottle Rockets","at":1785443154,"src":"triton"}
+{"s":"bx93-london","a":"Stella Lefty","t":"Boston","at":1785443389,"src":"triton"}
+{"s":"bx93-london","a":"Cameron Whitcomb","t":"Quitter","at":1785443560,"src":"triton"}
+{"s":"bx93-london","a":"Bailey Zimmerman","t":"Chevy Silverado","at":1785443723,"src":"triton"}
+{"s":"bx93-london","a":"Tenille Townes","t":"Somebody's Daughter","at":1785443931,"src":"triton"}
+{"s":"bx93-london","a":"Cody Johnson","t":"The Fall","at":1785444141,"src":"triton"}
+{"s":"bx93-london","a":"Jameson Rodgers ft. Luke Combs","t":"Cold Beer Calling My Name","at":1785444489,"src":"triton"}
+{"s":"bx93-london","a":"Jason Aldean","t":"Don't Tell On Me","at":1785444719,"src":"triton"}
+{"s":"bx93-london","a":"Tim Hicks","t":"The Pilot","at":1785444900,"src":"triton"}
+{"s":"bx93-london","a":"Kane Brown","t":"Woman","at":1785445098,"src":"triton"}
+{"s":"bx93-london","a":"Kenny Chesney","t":"Carry On","at":1785445329,"src":"triton"}
+{"s":"bx93-london","a":"Dustin Lynch","t":"Hell of a Night","at":1785445502,"src":"triton"}
+{"s":"mov-ott-ottawa","a":"Hozier","t":"Too Sweet","at":1785441802,"src":"triton"}
+{"s":"mov-ott-ottawa","a":"Alyssa Reid","t":"Alone Again","at":1785442108,"src":"triton"}
+{"s":"mov-ott-ottawa","a":"Donna Lewis","t":"I Love You Always Forever","at":1785442333,"src":"triton"}
+{"s":"mov-ott-ottawa","a":"JRDN","t":"Like Magic","at":1785442523,"src":"triton"}
+{"s":"mov-ott-ottawa","a":"Pitbull ftg. Christina Aguilera","t":"Feel This Moment","at":1785442764,"src":"triton"}
+{"s":"mov-ott-ottawa","a":"Delaney Jane ft Virginia To Vegas","t":"Just As Much","at":1785443177,"src":"triton"}
+{"s":"mov-ott-ottawa","a":"Alicia Keys","t":"Girl On Fire","at":1785443388,"src":"triton"}
+{"s":"mov-ott-ottawa","a":"Spice Girls","t":"Say You\u0026apos;ll Be There","at":1785443612,"src":"triton"}
+{"s":"mov-ott-ottawa","a":"The Chainsmokers ftg. Coldplay","t":"Something Just Like This","at":1785443856,"src":"triton"}
+{"s":"mov-ott-ottawa","a":"Felix Cartal \u0026amp; Lights","t":"Love Me","at":1785444096,"src":"triton"}
+{"s":"mov-ott-ottawa","a":"Lorde","t":"Royals","at":1785444324,"src":"triton"}
+{"s":"mov-ott-ottawa","a":"Black Eyed Peas","t":"Where Is The Love?","at":1785444736,"src":"triton"}
+{"s":"mov-ott-ottawa","a":"Charlotte Cardin","t":"The Way We Touch","at":1785444995,"src":"triton"}
+{"s":"mov-ott-ottawa","a":"Lady Gaga","t":"Paparazzi","at":1785445257,"src":"triton"}
+{"s":"mov-ott-ottawa","a":"Ne-Yo","t":"Closer","at":1785445469,"src":"triton"}
+{"s":"bnc-kw-kitchener","a":"Matthew Wilder","t":"Break My Stride","at":1785441992,"src":"triton"}
+{"s":"bnc-kw-kitchener","a":"Foo Fighters","t":"My Hero","at":1785442156,"src":"triton"}
+{"s":"bnc-kw-kitchener","a":"STATE OF SHOCK","t":"MONEY HONEY","at":1785442393,"src":"triton"}
+{"s":"bnc-kw-kitchener","a":"Pat Benatar","t":"Love Is A Battlefield","at":1785442587,"src":"triton"}
+{"s":"bnc-kw-kitchener","a":"Spoons","t":"Romantic Traffic","at":1785442823,"src":"triton"}
+{"s":"bnc-kw-kitchener","a":"Guns N' Roses","t":"Don't Cry (Live)","at":1785443288,"src":"triton"}
+{"s":"bnc-kw-kitchener","a":"Strange Advance","t":"We Run","at":1785443600,"src":"triton"}
+{"s":"bnc-kw-kitchener","a":"AC/DC","t":"Money Talks","at":1785443830,"src":"triton"}
+{"s":"bnc-kw-kitchener","a":"John Mellencamp","t":"Small Town","at":1785444094,"src":"triton"}
+{"s":"bnc-kw-kitchener","a":"Collective Soul","t":"The World I Know","at":1785444512,"src":"triton"}
+{"s":"bnc-kw-kitchener","a":"Bachman-Turner Overdrive","t":"You Ain't Seen Nothing Yet","at":1785444792,"src":"triton"}
+{"s":"bnc-kw-kitchener","a":"Queen","t":"We Will Rock You + We Are The Champions","at":1785444996,"src":"triton"}
+{"s":"bnc-kw-kitchener","a":"Jeff Healey Band","t":"While My Guitar Gently Weeps","at":1785445294,"src":"triton"}
+{"s":"bnc-kw-kitchener","a":"Red Hot Chili Peppers","t":"Give It Away","at":1785445617,"src":"triton"}
+{"s":"pc-bdn-brandon","a":"Russell Dickerson","t":"Worth Your Wild","at":1785441818,"src":"triton"}
+{"s":"pc-bdn-brandon","a":"Lee Brice","t":"One Of Them Girls","at":1785441992,"src":"triton"}
+{"s":"pc-bdn-brandon","a":"Kacey Musgraves","t":"Dry Spell","at":1785442175,"src":"triton"}
+{"s":"pc-bdn-brandon","a":"The Reklaws","t":"Never Drinking Again","at":1785442386,"src":"triton"}
+{"s":"pc-bdn-brandon","a":"Tenille Townes","t":"Sunshine's Free","at":1785442710,"src":"triton"}
+{"s":"pc-bdn-brandon","a":"Ella Langley","t":"Choosin' Texas","at":1785442898,"src":"triton"}
+{"s":"pc-bdn-brandon","a":"Luke Combs","t":"Be By You","at":1785443141,"src":"triton"}
+{"s":"pc-bdn-brandon","a":"Zac Brown Band","t":"Whatever It Is","at":1785443339,"src":"triton"}
+{"s":"pc-bdn-brandon","a":"Brayden King","t":"We Got Beer","at":1785443545,"src":"triton"}
+{"s":"pc-bdn-brandon","a":"Dean Brody","t":"A Man Without A Woman","at":1785443744,"src":"triton"}
+{"s":"pc-bdn-brandon","a":"Tebey","t":"Denim on Denim","at":1785443957,"src":"triton"}
+{"s":"pc-bdn-brandon","a":"Tyler Hubbard","t":"Dancin' In The Country","at":1785444143,"src":"triton"}
+{"s":"pc-bdn-brandon","a":"Jordan Davis","t":"Turn This Truck Around","at":1785444537,"src":"triton"}
+{"s":"pc-bdn-brandon","a":"Steven Lee Olsen","t":"Bigger Than This Town","at":1785444766,"src":"triton"}
+{"s":"pc-bdn-brandon","a":"Tyler Joe Miller","t":"Under the Influence","at":1785444946,"src":"triton"}
+{"s":"pc-bdn-brandon","a":"Luke Bryan","t":"Down To One","at":1785445143,"src":"triton"}
+{"s":"pc-bdn-brandon","a":"Luke Combs","t":"She Got The Best Of Me","at":1785445357,"src":"triton"}
+{"s":"pc-bdn-brandon","a":"Shaboozey","t":"Cowgirl","at":1785445547,"src":"triton"}
+{"s":"ckoi-montreal","a":"blink-182","t":"All the Small Things","at":1785442414,"src":"triton"}
+{"s":"ckoi-montreal","a":"FouKi","t":"Bijou","at":1785442586,"src":"triton"}
+{"s":"ckoi-montreal","a":"Arpin Lépine","t":"Chance","at":1785442845,"src":"triton"}
+{"s":"ckoi-montreal","a":"Outkast","t":"Hey Ya!","at":1785443851,"src":"triton"}
+{"s":"ckoi-montreal","a":"Les Colocs","t":"La rue Principale","at":1785444037,"src":"triton"}
+{"s":"ckoi-montreal","a":"Émile Bilodeau","t":"Ça va","at":1785444273,"src":"triton"}
+{"s":"ckoi-montreal","a":"Francis Degrandpré","t":"Se laisser aller","at":1785444558,"src":"triton"}
+{"s":"ryt-lvl-laval","a":"Fredz","t":"Je veux","at":1785441636,"src":"triton"}
+{"s":"ryt-lvl-laval","a":"Edward Maya \u0026 Mia Martina","t":"Stereo Love (Main Mix)","at":1785441936,"src":"triton"}
+{"s":"ryt-lvl-laval","a":"Bleu Jeans Bleu","t":"Scotch \u0026 poches","at":1785442109,"src":"triton"}
+{"s":"ryt-lvl-laval","a":"Dasha","t":"Austin (Boots Stop Workin')","at":1785442460,"src":"triton"}
+{"s":"ryt-lvl-laval","a":"Eleven Thirty (11:30)","t":"Ole Ole","at":1785442615,"src":"triton"}
+{"s":"ryt-lvl-laval","a":"LU KALA","t":"Hotter Now","at":1785443367,"src":"triton"}
+{"s":"ryt-lvl-laval","a":"Charlotte Cardin","t":"Feel Good","at":1785443793,"src":"triton"}
+{"s":"ryt-lvl-laval","a":"Mr. Big","t":"To Be with You","at":1785443958,"src":"triton"}
+{"s":"ryt-lvl-laval","a":"Khaled","t":"C’est la vie","at":1785444333,"src":"triton"}
+{"s":"ryt-lvl-laval","a":"Les Trois Accords \u0026 Cœur de pirate","t":"Toujours les vacances","at":1785444526,"src":"triton"}
+{"s":"ryt-lvl-laval","a":"RAYE","t":"WHERE IS MY HUSBAND!","at":1785445255,"src":"triton"}
+{"s":"ryt-lvl-laval","a":"Marc Dupré","t":"Où sera le monde","at":1785445452,"src":"triton"}
+{"s":"nrj-mag-magog","a":"Damien Robitaille","t":"Je tombe","at":1785444818,"src":"triton"}
+{"s":"vr-wpg-winnipeg","a":"PinkPantheress ft. Zara Larsson","t":"Stateside","at":1785441207,"src":"triton"}
+{"s":"vr-wpg-winnipeg","a":"Preston Pablo","t":"One Last Song","at":1785441403,"src":"triton"}
+{"s":"vr-wpg-winnipeg","a":"Harry Styles","t":"American Girls","at":1785441561,"src":"triton"}
+{"s":"vr-wpg-winnipeg","a":"Avril Lavigne","t":"Complicated","at":1785441744,"src":"triton"}
+{"s":"vr-wpg-winnipeg","a":"Taylor Swift","t":"Cruel Summer","at":1785442051,"src":"triton"}
+{"s":"vr-wpg-winnipeg","a":"Loud Luxury, DVBBS, Kane Brown","t":"Next To You","at":1785442225,"src":"triton"}
+{"s":"vr-wpg-winnipeg","a":"Justin Bieber","t":"Speed Demon","at":1785442648,"src":"triton"}
+{"s":"vr-wpg-winnipeg","a":"Charlotte Cardin","t":"The Way We Touch","at":1785442880,"src":"triton"}
+{"s":"vr-wpg-winnipeg","a":"Post Malone \u0026amp; Swae Lee","t":"Sunflower","at":1785443044,"src":"triton"}
+{"s":"vr-wpg-winnipeg","a":"Ella Langley","t":"Choosin\u0026apos; Texas","at":1785443253,"src":"triton"}
+{"s":"vr-wpg-winnipeg","a":"Con The Artist","t":"Where\u0026apos;s Your Girlfriend","at":1785443473,"src":"triton"}
+{"s":"vr-wpg-winnipeg","a":"Drake ft. Rihanna","t":"Too Good","at":1785443653,"src":"triton"}
+{"s":"vr-wpg-winnipeg","a":"Gracie Abrams","t":"That\u0026apos;s So True","at":1785444152,"src":"triton"}
+{"s":"vr-wpg-winnipeg","a":"Sombr","t":"My Body Isn\u0026apos;t Ready","at":1785444309,"src":"triton"}
+{"s":"vr-wpg-winnipeg","a":"Cameron Whitcomb","t":"Quitter","at":1785444527,"src":"triton"}
+{"s":"vr-wpg-winnipeg","a":"Zara Larsson","t":"Midnight Sun","at":1785444695,"src":"triton"}
+{"s":"vr-wpg-winnipeg","a":"French Montana \u0026amp; Max B","t":"Ever Since You Left Me","at":1785444958,"src":"triton"}
+{"s":"rge-qc-quebec-city","a":"2026-7-30 16:18:02","t":"ROU1625.mp3","at":1785443335,"src":"triton"}
+{"s":"rge-qc-quebec-city","a":"2026-7-30 16:32:02","t":"ROU1650.mp3","at":1785444499,"src":"triton"}
+{"s":"pc-sud-sudbury","a":"Luke Combs","t":"She Got The Best Of Me","at":1785441777,"src":"triton"}
+{"s":"pc-sud-sudbury","a":"Shaboozey","t":"Cowgirl","at":1785442025,"src":"triton"}
+{"s":"pc-sud-sudbury","a":"High Valley","t":"Fools","at":1785442199,"src":"triton"}
+{"s":"pc-sud-sudbury","a":"James Barker Band","t":"Just Sayin'","at":1785442399,"src":"triton"}
+{"s":"pc-sud-sudbury","a":"Ella Langley \u0026 Morgan Wallen","t":"I Can't Love You Anymore","at":1785442587,"src":"triton"}
+{"s":"pc-sud-sudbury","a":"Jelly Roll","t":"Hands Up","at":1785443026,"src":"triton"}
+{"s":"pc-sud-sudbury","a":"Jade Eagleson","t":"Close","at":1785443228,"src":"triton"}
+{"s":"pc-sud-sudbury","a":"Scotty McCreery ft Hootie \u0026 The","t":"Bottle Rockets","at":1785443416,"src":"triton"}
+{"s":"pc-sud-sudbury","a":"Stella Lefty","t":"Boston","at":1785443714,"src":"triton"}
+{"s":"pc-sud-sudbury","a":"Cameron Whitcomb","t":"Quitter","at":1785443886,"src":"triton"}
+{"s":"pc-sud-sudbury","a":"Bailey Zimmerman","t":"Chevy Silverado","at":1785444043,"src":"triton"}
+{"s":"pc-sud-sudbury","a":"Tenille Townes","t":"Somebody's Daughter","at":1785444264,"src":"triton"}
+{"s":"pc-sud-sudbury","a":"Cody Johnson","t":"The Fall","at":1785444472,"src":"triton"}
+{"s":"pc-sud-sudbury","a":"Jameson Rodgers ft. Luke Combs","t":"Cold Beer Calling My Name","at":1785444861,"src":"triton"}
+{"s":"pc-sud-sudbury","a":"Jason Aldean","t":"Don't Tell On Me","at":1785445062,"src":"triton"}
+{"s":"pc-sud-sudbury","a":"Kane Brown","t":"Woman","at":1785445362,"src":"triton"}
+{"s":"bnc-mid-midland","a":"Matthew Wilder","t":"Break My Stride","at":1785441747,"src":"triton"}
+{"s":"bnc-mid-midland","a":"Foo Fighters","t":"My Hero","at":1785441915,"src":"triton"}
+{"s":"bnc-mid-midland","a":"STATE OF SHOCK","t":"MONEY HONEY","at":1785442152,"src":"triton"}
+{"s":"bnc-mid-midland","a":"Pat Benatar","t":"Love Is A Battlefield","at":1785442349,"src":"triton"}
+{"s":"bnc-mid-midland","a":"Spoons","t":"Romantic Traffic","at":1785442585,"src":"triton"}
+{"s":"bnc-mid-midland","a":"Guns N' Roses","t":"Don't Cry (Live)","at":1785443105,"src":"triton"}
+{"s":"bnc-mid-midland","a":"Strange Advance","t":"We Run","at":1785443387,"src":"triton"}
+{"s":"bnc-mid-midland","a":"AC/DC","t":"Money Talks","at":1785443618,"src":"triton"}
+{"s":"bnc-mid-midland","a":"John Mellencamp","t":"Small Town","at":1785443913,"src":"triton"}
+{"s":"bnc-mid-midland","a":"Collective Soul","t":"The World I Know","at":1785444384,"src":"triton"}
+{"s":"bnc-mid-midland","a":"Bachman-Turner Overdrive","t":"You Ain't Seen Nothing Yet","at":1785444615,"src":"triton"}
+{"s":"bnc-mid-midland","a":"Queen","t":"We Will Rock You + We Are The Champions","at":1785444819,"src":"triton"}
+{"s":"bnc-mid-midland","a":"Sloan","t":"The Good In Everyone","at":1785445117,"src":"triton"}
+{"s":"bnc-mid-midland","a":"Red Hot Chili Peppers","t":"Give It Away","at":1785445483,"src":"triton"}
+{"s":"vr-wnd-windsor","a":"Zara Larsson","t":"Midnight Sun","at":1785441761,"src":"triton"}
+{"s":"vr-wnd-windsor","a":"French Montana \u0026 Max B","t":"Ever Since You Left Me","at":1785442057,"src":"triton"}
+{"s":"vr-wnd-windsor","a":"Taylor Swift","t":"Blank Space (Taylor's Version)","at":1785442194,"src":"triton"}
+{"s":"vr-wnd-windsor","a":"Post Malone ft. Doja Cat","t":"I Like You (A Happier Song)","at":1785442425,"src":"triton"}
+{"s":"vr-wnd-windsor","a":"Harry Styles","t":"As It Was","at":1785442851,"src":"triton"}
+{"s":"vr-wnd-windsor","a":"Alex Sampson","t":"Misery","at":1785443005,"src":"triton"}
+{"s":"vr-wnd-windsor","a":"Hozier","t":"Too Sweet","at":1785443172,"src":"triton"}
+{"s":"vr-wnd-windsor","a":"Dominic Fike","t":"Babydoll","at":1785443414,"src":"triton"}
+{"s":"vr-wnd-windsor","a":"Charlotte Cardin","t":"99 Nights","at":1785443517,"src":"triton"}
+{"s":"vr-wnd-windsor","a":"Sombr","t":"Homewrecker","at":1785443775,"src":"triton"}
+{"s":"vr-wnd-windsor","a":"The Weeknd","t":"Take My Breath","at":1785443965,"src":"triton"}
+{"s":"vr-wnd-windsor","a":"Bruno Mars","t":"Risk It All","at":1785444174,"src":"triton"}
+{"s":"vr-wnd-windsor","a":"Adam Rodway","t":"Runaround","at":1785444421,"src":"triton"}
+{"s":"vr-wnd-windsor","a":"Billie Eilish","t":"Birds of a Feather","at":1785444546,"src":"triton"}
+{"s":"vr-wnd-windsor","a":"Olivia Rodrigo","t":"drop dead","at":1785444774,"src":"triton"}
+{"s":"vr-wnd-windsor","a":"Benson Boone","t":"Beautiful Things","at":1785444997,"src":"triton"}
+{"s":"vr-wnd-windsor","a":"Taio Cruz","t":"Dynamite","at":1785445170,"src":"triton"}
+{"s":"vr-wnd-windsor","a":"Olivia Dean","t":"So Easy (To Fall In Love)","at":1785445390,"src":"triton"}
+{"s":"bnc-bdn-brandon","a":"Michael Jackson","t":"Black Or White","at":1785441667,"src":"triton"}
+{"s":"bnc-bdn-brandon","a":"Tom Cochrane","t":"White Hot","at":1785441845,"src":"triton"}
+{"s":"bnc-bdn-brandon","a":"Hall \u0026 Oates","t":"Maneater","at":1785442053,"src":"triton"}
+{"s":"bnc-bdn-brandon","a":"Sass Jordan","t":"Make You A Believer","at":1785442301,"src":"triton"}
+{"s":"bnc-bdn-brandon","a":"Green Day","t":"Boulevard of Broken Dreams","at":1785442592,"src":"triton"}
+{"s":"bnc-bdn-brandon","a":"Billy Idol","t":"Dancing With Myself","at":1785443074,"src":"triton"}
+{"s":"bnc-bdn-brandon","a":"Bob Seger \u0026 The Silver Bullet Band","t":"Old Time Rock \u0026 Roll","at":1785443277,"src":"triton"}
+{"s":"bnc-bdn-brandon","a":"Tal Bachman","t":"She's So High","at":1785443473,"src":"triton"}
+{"s":"bnc-bdn-brandon","a":"Seal","t":"Kiss From A Rose","at":1785443693,"src":"triton"}
+{"s":"bnc-bdn-brandon","a":"Whitney Houston","t":"How Will I Know","at":1785444247,"src":"triton"}
+{"s":"bnc-bdn-brandon","a":"Bryan Adams","t":"One Night Love Affair","at":1785444506,"src":"triton"}
+{"s":"bnc-bdn-brandon","a":"Maroon 5","t":"This Love","at":1785444767,"src":"triton"}
+{"s":"bnc-bdn-brandon","a":"ZZ Top","t":"Gimmie All Your Lovin’","at":1785444964,"src":"triton"}
+{"s":"bnc-bdn-brandon","a":"Tragically Hip","t":"Ahead By A Century","at":1785445195,"src":"triton"}
+{"s":"bnc-bdn-brandon","a":"Matthew Wilder","t":"Break My Stride","at":1785445426,"src":"triton"}
+{"s":"htz-st-catharines","a":"Rage Against The Machine","t":"Sleep Now In The Fire","at":1785441863,"src":"triton"}
+{"s":"htz-st-catharines","a":"Bad Wolves","t":"Paint It Red","at":1785442067,"src":"triton"}
+{"s":"htz-st-catharines","a":"Aerosmith","t":"Back In The Saddle","at":1785442285,"src":"triton"}
+{"s":"htz-st-catharines","a":"Alice In Chains","t":"Down In A Hole (Unplugged)","at":1785443115,"src":"triton"}
+{"s":"htz-st-catharines","a":"Soundgarden","t":"Rusty Cage","at":1785443457,"src":"triton"}
+{"s":"htz-st-catharines","a":"Metallica","t":"Enter Sandman","at":1785443722,"src":"triton"}
+{"s":"htz-st-catharines","a":"Crown Lands","t":"Blackstar","at":1785444088,"src":"triton"}
+{"s":"htz-st-catharines","a":"Glorious Sons","t":"Heavy","at":1785444291,"src":"triton"}
+{"s":"htz-st-catharines","a":"July Talk","t":"Beck + Call","at":1785444962,"src":"triton"}
+{"s":"htz-st-catharines","a":"Sheepdogs","t":"Feeling Good","at":1785445156,"src":"triton"}
+{"s":"htz-st-catharines","a":"Weezer","t":"Island In The Sun","at":1785445355,"src":"triton"}
+{"s":"ryt-shr-sherbrooke","a":"Fredz","t":"Je veux","at":1785441636,"src":"triton"}
+{"s":"ryt-shr-sherbrooke","a":"Edward Maya \u0026 Mia Martina","t":"Stereo Love (Main Mix)","at":1785441936,"src":"triton"}
+{"s":"ryt-shr-sherbrooke","a":"Bleu Jeans Bleu","t":"Scotch \u0026 poches","at":1785442109,"src":"triton"}
+{"s":"ryt-shr-sherbrooke","a":"Dasha","t":"Austin (Boots Stop Workin')","at":1785442460,"src":"triton"}
+{"s":"ryt-shr-sherbrooke","a":"Eleven Thirty (11:30)","t":"Ole Ole","at":1785442615,"src":"triton"}
+{"s":"ryt-shr-sherbrooke","a":"LU KALA","t":"Hotter Now","at":1785443367,"src":"triton"}
+{"s":"ryt-shr-sherbrooke","a":"Charlotte Cardin","t":"Feel Good","at":1785443793,"src":"triton"}
+{"s":"ryt-shr-sherbrooke","a":"Mr. Big","t":"To Be with You","at":1785443958,"src":"triton"}
+{"s":"ryt-shr-sherbrooke","a":"Khaled","t":"C’est la vie","at":1785444332,"src":"triton"}
+{"s":"ryt-shr-sherbrooke","a":"RAYE","t":"WHERE IS MY HUSBAND!","at":1785445256,"src":"triton"}
+{"s":"ryt-shr-sherbrooke","a":"Marc Dupré","t":"Où sera le monde","at":1785445452,"src":"triton"}
+{"s":"ryt-sag-saguenay","a":"Fredz","t":"Je veux","at":1785441637,"src":"triton"}
+{"s":"ryt-sag-saguenay","a":"Edward Maya \u0026 Mia Martina","t":"Stereo Love (Main Mix)","at":1785441937,"src":"triton"}
+{"s":"ryt-sag-saguenay","a":"Bleu Jeans Bleu","t":"Scotch \u0026 poches","at":1785442110,"src":"triton"}
+{"s":"ryt-sag-saguenay","a":"Dasha","t":"Austin (Boots Stop Workin')","at":1785442461,"src":"triton"}
+{"s":"ryt-sag-saguenay","a":"Eleven Thirty (11:30)","t":"Ole Ole","at":1785442616,"src":"triton"}
+{"s":"ryt-sag-saguenay","a":"LU KALA","t":"Hotter Now","at":1785443368,"src":"triton"}
+{"s":"ryt-sag-saguenay","a":"LU KALA","t":"Hotter Now","at":1785443529,"src":"triton"}
+{"s":"ryt-sag-saguenay","a":"Charlotte Cardin","t":"Feel Good","at":1785443794,"src":"triton"}
+{"s":"ryt-sag-saguenay","a":"Mr. Big","t":"To Be with You","at":1785443959,"src":"triton"}
+{"s":"ryt-sag-saguenay","a":"Khaled","t":"C’est la vie","at":1785444334,"src":"triton"}
+{"s":"ryt-sag-saguenay","a":"RAYE","t":"WHERE IS MY HUSBAND!","at":1785445256,"src":"triton"}
+{"s":"ryt-sag-saguenay","a":"Marc Dupré","t":"Où sera le monde","at":1785445453,"src":"triton"}
+{"s":"cime-saint-j-r-me","a":"SABRINA CARPENTER","t":"ESPRESSO","at":1785442482,"src":"triton"}
+{"s":"cime-saint-j-r-me","a":"JAY SCOTT","t":"TAKE ME HOME","at":1785442740,"src":"triton"}
+{"s":"cime-saint-j-r-me","a":"LAURENCE ST-MARTIN","t":"SECHE TES PLEURS","at":1785444152,"src":"triton"}
+{"s":"cime-saint-j-r-me","a":"LAURENCE ST-MARTIN","t":"SECHE TES PLEURS","at":1785444255,"src":"triton"}
+{"s":"cime-saint-j-r-me","a":"LOUISE ATTAQUE","t":"AMOURS","at":1785444304,"src":"triton"}
+{"s":"cime-saint-j-r-me","a":"MADONNA","t":"LIKE A PRAYER","at":1785444511,"src":"triton"}
+{"s":"q107-toronto","a":"Guns N' Roses","t":"Paradise City","at":1785442560,"src":"corus"}
+{"s":"q107-toronto","a":"Foo Fighters","t":"Times Like These","at":1785442980,"src":"corus"}
+{"s":"q107-toronto","a":"Queen","t":"You're My Best Friend","at":1785443340,"src":"corus"}
+{"s":"q107-toronto","a":"Loverboy","t":"Working For The Weekend","at":1785443520,"src":"corus"}
+{"s":"q107-toronto","a":"Toto","t":"Hold The Line","at":1785444180,"src":"corus"}
+{"s":"q107-toronto","a":"The White Stripes","t":"Seven Nation Army","at":1785444480,"src":"corus"}
+{"s":"q107-toronto","a":"Northern Pikes","t":"She Ain't Pretty","at":1785444720,"src":"corus"}
+{"s":"q107-toronto","a":"Led Zeppelin","t":"Ramble On","at":1785444960,"src":"corus"}
+{"s":"q107-toronto","a":"Our Lady Peace","t":"Is Anybody Home?","at":1785445200,"src":"corus"}
+{"s":"q107-toronto","a":"Bruce Springsteen","t":"Dancing In The Dark","at":1785445440,"src":"corus"}
+{"s":"edge-1021-toronto","a":"The Smashing Pumpkins","t":"Disarm","at":1785443100,"src":"corus"}
+{"s":"edge-1021-toronto","a":"Death From Above 1979","t":"Trainwreck 1979","at":1785443280,"src":"corus"}
+{"s":"edge-1021-toronto","a":"Crowded House","t":"Don't Dream It's Over  acoustic","at":1785443520,"src":"corus"}
+{"s":"edge-1021-toronto","a":"Jack White","t":"That's How I'm Feeling","at":1785443760,"src":"corus"}
+{"s":"edge-1021-toronto","a":"Big Sugar","t":"If I Had My Way","at":1785443940,"src":"corus"}
+{"s":"edge-1021-toronto","a":"Filter","t":"Take A Picture","at":1785444240,"src":"corus"}
+{"s":"edge-1021-toronto","a":"Fatboy Slim","t":"Praise You","at":1785444780,"src":"corus"}
+{"s":"edge-1021-toronto","a":"The Offspring","t":"Come Out And Play","at":1785445020,"src":"corus"}
+{"s":"edge-1021-toronto","a":"Ruby Waters","t":"Sour Patch","at":1785445260,"src":"corus"}
+{"s":"edge-1021-toronto","a":"The Ataris","t":"The Boys of Summer","at":1785445440,"src":"corus"}
+{"s":"fresh-931-barrie","a":"K-5 ft. Hayla","t":"Escape","at":1785443040,"src":"corus"}
+{"s":"fresh-931-barrie","a":"Sombr","t":"Homewrecker","at":1785443400,"src":"corus"}
+{"s":"fresh-931-barrie","a":"Olivia Dean","t":"Man I Need","at":1785443580,"src":"corus"}
+{"s":"fresh-931-barrie","a":"Felix Cartal \u0026 Fionn","t":"The Way","at":1785443760,"src":"corus"}
+{"s":"fresh-931-barrie","a":"Alex Porat","t":"Kissing You","at":1785444000,"src":"corus"}
+{"s":"fresh-931-barrie","a":"Beyonce Ft. Jay-Z","t":"Crazy In Love","at":1785444480,"src":"corus"}
+{"s":"fresh-931-barrie","a":"Charlotte Cardin","t":"99 Nights","at":1785444720,"src":"corus"}
+{"s":"fresh-931-barrie","a":"Bruno Mars","t":"I Just Might","at":1785444840,"src":"corus"}
+{"s":"fresh-931-barrie","a":"Alex Warren","t":"Fever Dream","at":1785445080,"src":"corus"}
+{"s":"fresh-931-barrie","a":"Jamie Fine","t":"If Anything's Left","at":1785445440,"src":"corus"}
+{"s":"big-101-barrie","a":"Martha \u0026 The Muffins","t":"Echo Beach","at":1785442920,"src":"corus"}
+{"s":"big-101-barrie","a":"Eagle Eye Cherry","t":"Save Tonight","at":1785443100,"src":"corus"}
+{"s":"big-101-barrie","a":"John Mellencamp","t":"Jack \u0026 Diane","at":1785443340,"src":"corus"}
+{"s":"big-101-barrie","a":"Bryan Adams","t":"Summer of '69","at":1785443580,"src":"corus"}
+{"s":"big-101-barrie","a":"The Killers","t":"Mr. Brightside","at":1785444120,"src":"corus"}
+{"s":"big-101-barrie","a":"Toto","t":"Africa","at":1785444300,"src":"corus"}
+{"s":"big-101-barrie","a":"Third Eye Blind","t":"Semi-Charmed Life","at":1785444600,"src":"corus"}
+{"s":"big-101-barrie","a":"Heart","t":"Magic Man","at":1785444780,"src":"corus"}
+{"s":"big-101-barrie","a":"Santana \u0026 Rob Thomas","t":"Smooth","at":1785445140,"src":"corus"}
+{"s":"big-101-barrie","a":"Doug \u0026 The Slugs","t":"Day By Day","at":1785445380,"src":"corus"}
+{"s":"y108-hamilton","a":"Billy Talent","t":"I Beg To Differ  This Will Get Better","at":1785442740,"src":"corus"}
+{"s":"y108-hamilton","a":"Aerosmith","t":"Sweet Emotion","at":1785443160,"src":"corus"}
+{"s":"y108-hamilton","a":"Theory Of A Deadman","t":"Barricade","at":1785443460,"src":"corus"}
+{"s":"y108-hamilton","a":"Blink-182","t":"All The Small Things","at":1785443640,"src":"corus"}
+{"s":"y108-hamilton","a":"The Sheepdogs","t":"Feeling Good","at":1785443940,"src":"corus"}
+{"s":"y108-hamilton","a":"Def Leppard","t":"Animal","at":1785444360,"src":"corus"}
+{"s":"y108-hamilton","a":"The Tragically Hip","t":"Fireworks","at":1785444600,"src":"corus"}
+{"s":"y108-hamilton","a":"Staind","t":"It's Been Awhile","at":1785444840,"src":"corus"}
+{"s":"y108-hamilton","a":"Judas Priest","t":"You've Got Another Thing","at":1785445140,"src":"corus"}
+{"s":"y108-hamilton","a":"Sam Roberts Band","t":"Don't Walk Away Eileen","at":1785445440,"src":"corus"}
+{"s":"edge-1073-calgary","a":"Trapt","t":"Headstrong","at":1785442800,"src":"corus"}
+{"s":"edge-1073-calgary","a":"The Glorious Sons","t":"Lightning","at":1785443040,"src":"corus"}
+{"s":"edge-1073-calgary","a":"Wintersleep","t":"Amerika","at":1785443580,"src":"corus"}
+{"s":"edge-1073-calgary","a":"Peter Gabriel","t":"Sledgehammer","at":1785443760,"src":"corus"}
+{"s":"edge-1073-calgary","a":"Nirvana","t":"All Apologies (acoustic)","at":1785444060,"src":"corus"}
+{"s":"edge-1073-calgary","a":"Our Lady Peace","t":"Superman's Dead","at":1785444300,"src":"corus"}
+{"s":"edge-1073-calgary","a":"Green Day","t":"American Idiot","at":1785444540,"src":"corus"}
+{"s":"edge-1073-calgary","a":"CFGQ Legal ID","t":"E3 Legal Music 30","at":1785445020,"src":"corus"}
+{"s":"edge-1073-calgary","a":"The Offspring","t":"Come Out And Play","at":1785445080,"src":"corus"}
+{"s":"edge-1073-calgary","a":"Fatboy Slim","t":"Praise You","at":1785445260,"src":"corus"}
+{"s":"country-105-calgary","a":"Justin Moore","t":"Time's Ticking","at":1785443220,"src":"corus"}
+{"s":"country-105-calgary","a":"Shania Twain","t":"Honey, I'M Home","at":1785443460,"src":"corus"}
+{"s":"country-105-calgary","a":"Dean Brody","t":"A Man Without A Woman","at":1785443640,"src":"corus"}
+{"s":"country-105-calgary","a":"Morgan Wallen","t":"More Than My Hometown","at":1785443880,"src":"corus"}
+{"s":"country-105-calgary","a":"CKRY Legal / Concert Calendar","t":"May 13-Aug 26","at":1785444420,"src":"corus"}
+{"s":"country-105-calgary","a":"Luke Combs","t":"Be By You","at":1785444480,"src":"corus"}
+{"s":"country-105-calgary","a":"James Barker Band","t":"After Dark","at":1785444720,"src":"corus"}
+{"s":"country-105-calgary","a":"Chase Mathew","t":"Darlin'","at":1785444900,"src":"corus"}
+{"s":"country-105-calgary","a":"Kenny Chesney","t":"Carry On","at":1785445080,"src":"corus"}
+{"s":"country-105-calgary","a":"Terri Clark","t":"Better Things To Do","at":1785445260,"src":"corus"}
+{"s":"peak-951-collingwood","a":"Shawn Hook Ft. Vanessa Hudgens","t":"Reminding Me","at":1785443280,"src":"corus"}
+{"s":"peak-951-collingwood","a":"No Doubt","t":"Don't Speak","at":1785443520,"src":"corus"}
+{"s":"peak-951-collingwood","a":"Preston Pablo","t":"Cause I Do","at":1785443760,"src":"corus"}
+{"s":"peak-951-collingwood","a":"Kate Bush","t":"Running Up That Hill","at":1785443940,"src":"corus"}
+{"s":"peak-951-collingwood","a":"Shania Twain","t":"Up!","at":1785444180,"src":"corus"}
+{"s":"peak-951-collingwood","a":"Taylor Swift","t":"The Fate Of Ophelia","at":1785444540,"src":"corus"}
+{"s":"peak-951-collingwood","a":"Kenny Loggins","t":"Footloose","at":1785444780,"src":"corus"}
+{"s":"peak-951-collingwood","a":"Donna Lewis","t":"I Love You Always Forever","at":1785444960,"src":"corus"}
+{"s":"peak-951-collingwood","a":"Sia","t":"Cheap Thrills","at":1785445200,"src":"corus"}
+{"s":"peak-951-collingwood","a":"Crowded House","t":"Don't Dream It's Over","at":1785445380,"src":"corus"}
+{"s":"chuck-925-edmonton","a":"Triumph","t":"Somebody's Out There","at":1785442620,"src":"corus"}
+{"s":"chuck-925-edmonton","a":"Peter Gabriel","t":"In Your Eyes","at":1785442860,"src":"corus"}
+{"s":"chuck-925-edmonton","a":"Deep Blue Something","t":"Breakfast At Tiffany's","at":1785443220,"src":"corus"}
+{"s":"chuck-925-edmonton","a":"Imagine Dragons","t":"Radioactive","at":1785443700,"src":"corus"}
+{"s":"chuck-925-edmonton","a":"Belinda Carlisle","t":"Heaven Is A Place On Earth","at":1785443880,"src":"corus"}
+{"s":"chuck-925-edmonton","a":"Tom Cochrane \u0026 Red Rider","t":"Victory Day","at":1785444120,"src":"corus"}
+{"s":"chuck-925-edmonton","a":"Marky Mark \u0026 The Funky Bunch","t":"Good Vibrations","at":1785444360,"src":"corus"}
+{"s":"chuck-925-edmonton","a":"April Wine","t":"Sign of the Gypsy Queen","at":1785444900,"src":"corus"}
+{"s":"chuck-925-edmonton","a":"No Doubt","t":"It's My Life","at":1785445140,"src":"corus"}
+{"s":"chuck-925-edmonton","a":"Night Ranger","t":"Sister Christian","at":1785445380,"src":"corus"}
+{"s":"cisn-country-edmonton","a":"Tyler Joe Miller","t":"Under The Influence","at":1785443160,"src":"corus"}
+{"s":"cisn-country-edmonton","a":"Russell Dickerson","t":"Worth Your Wild","at":1785443460,"src":"corus"}
+{"s":"cisn-country-edmonton","a":"Tucker Wetmore","t":"Brunette","at":1785443580,"src":"corus"}
+{"s":"cisn-country-edmonton","a":"Dean Brody","t":"A Man Without A Woman","at":1785443820,"src":"corus"}
+{"s":"cisn-country-edmonton","a":"Shaboozey","t":"Cowgirl","at":1785444000,"src":"corus"}
+{"s":"cisn-country-edmonton","a":"Terri Clark","t":"Better Things To Do","at":1785444180,"src":"corus"}
+{"s":"cisn-country-edmonton","a":"Jade Eagleson","t":"Worth The Double","at":1785444420,"src":"corus"}
+{"s":"cisn-country-edmonton","a":"Luke Combs","t":"Be By You","at":1785445020,"src":"corus"}
+{"s":"cisn-country-edmonton","a":"Kenny Chesney","t":"Carry On","at":1785445200,"src":"corus"}
+{"s":"cisn-country-edmonton","a":"Shania Twain","t":"Honey, I'M Home","at":1785445380,"src":"corus"}
+{"s":"magic-1061-guelph","a":"Sombr","t":"Back To Friends","at":1785443220,"src":"corus"}
+{"s":"magic-1061-guelph","a":"Black Eyed Peas","t":"I Gotta Feeling","at":1785443400,"src":"corus"}
+{"s":"magic-1061-guelph","a":"Preston Pablo","t":"Cause I Do","at":1785443640,"src":"corus"}
+{"s":"magic-1061-guelph","a":"Lewis Capaldi","t":"Someone You Loved","at":1785443880,"src":"corus"}
+{"s":"magic-1061-guelph","a":"Shawn Desman \u0026 Jamie Fine","t":"Body","at":1785444060,"src":"corus"}
+{"s":"magic-1061-guelph","a":"Mark Morrison","t":"Return Of The Mack","at":1785444480,"src":"corus"}
+{"s":"magic-1061-guelph","a":"Alex Warren","t":"Fever Dream","at":1785444780,"src":"corus"}
+{"s":"magic-1061-guelph","a":"Swedish House Mafia Ft. The Weeknd","t":"Moth To A Flame","at":1785444900,"src":"corus"}
+{"s":"magic-1061-guelph","a":"Billie Eilish","t":"Birds Of A Feather","at":1785445080,"src":"corus"}
+{"s":"magic-1061-guelph","a":"Sabrina Carpenter","t":"Espresso","at":1785445320,"src":"corus"}
+{"s":"energy-953-hamilton","a":"Preston Pablo","t":"Cause I Do","at":1785443580,"src":"corus"}
+{"s":"energy-953-hamilton","a":"Lewis Capaldi","t":"Someone You Loved","at":1785443940,"src":"corus"}
+{"s":"energy-953-hamilton","a":"Shawn Desman \u0026 Jamie Fine","t":"Body","at":1785444120,"src":"corus"}
+{"s":"energy-953-hamilton","a":"Shaggy","t":"Angel","at":1785444300,"src":"corus"}
+{"s":"energy-953-hamilton","a":"Alex Warren","t":"Fever Dream","at":1785444480,"src":"corus"}
+{"s":"energy-953-hamilton","a":"Swedish House Mafia Ft. The Weeknd","t":"Moth To A Flame","at":1785444660,"src":"corus"}
+{"s":"energy-953-hamilton","a":"Billie Eilish","t":"Birds Of A Feather","at":1785444840,"src":"corus"}
+{"s":"energy-953-hamilton","a":"Bulow","t":"Not A Love Song","at":1785445020,"src":"corus"}
+{"s":"energy-953-hamilton","a":"Sabrina Carpenter","t":"Espresso","at":1785445260,"src":"corus"}
+{"s":"energy-953-hamilton","a":"Felix Cartal","t":"Get What You Give","at":1785445440,"src":"corus"}
+{"s":"big-963-kingston","a":"Trooper","t":"Boys In The Bright White Sports Car","at":1785442920,"src":"corus"}
+{"s":"big-963-kingston","a":"Foreigner","t":"Juke Box Hero","at":1785443100,"src":"corus"}
+{"s":"big-963-kingston","a":"Lynyrd Skynyrd","t":"Sweet Home Alabama","at":1785443400,"src":"corus"}
+{"s":"big-963-kingston","a":"Doug \u0026 The Slugs","t":"Makin' It Work","at":1785443640,"src":"corus"}
+{"s":"big-963-kingston","a":"Eagles","t":"Take It To The Limit","at":1785443880,"src":"corus"}
+{"s":"big-963-kingston","a":"Pearl Jam","t":"Better Man","at":1785444300,"src":"corus"}
+{"s":"big-963-kingston","a":"Steppenwolf","t":"Born To Be Wild","at":1785444540,"src":"corus"}
+{"s":"big-963-kingston","a":"John Mellencamp","t":"Pink Houses","at":1785444780,"src":"corus"}
+{"s":"big-963-kingston","a":"The Tragically Hip","t":"Boots Or Hearts","at":1785445080,"src":"corus"}
+{"s":"big-963-kingston","a":"The Tragically Hip","t":"Pigeon Camera","at":1785445380,"src":"corus"}
+{"s":"fresh-1043-kingston","a":"Shawn Desman \u0026 Jamie Fine","t":"Body","at":1785443340,"src":"corus"}
+{"s":"fresh-1043-kingston","a":"Shaggy","t":"Angel","at":1785443760,"src":"corus"}
+{"s":"fresh-1043-kingston","a":"Alex Warren","t":"Fever Dream","at":1785443940,"src":"corus"}
+{"s":"fresh-1043-kingston","a":"Swedish House Mafia Ft. The Weeknd","t":"Moth To A Flame","at":1785444120,"src":"corus"}
+{"s":"fresh-1043-kingston","a":"Billie Eilish","t":"Birds Of A Feather","at":1785444300,"src":"corus"}
+{"s":"fresh-1043-kingston","a":"Bulow","t":"Not A Love Song","at":1785444480,"src":"corus"}
+{"s":"fresh-1043-kingston","a":"Gwen Stefani","t":"Hollaback Girl","at":1785444720,"src":"corus"}
+{"s":"fresh-1043-kingston","a":"Sabrina Carpenter","t":"Espresso","at":1785445020,"src":"corus"}
+{"s":"fresh-1043-kingston","a":"Felix Cartal","t":"Get What You Give","at":1785445200,"src":"corus"}
+{"s":"fresh-1043-kingston","a":"Olivia Rodrigo","t":"Drop Dead","at":1785445380,"src":"corus"}
+{"s":"dave-1075-kitchener","a":"Billy Talent","t":"I Beg To Differ (This Will Get Better)","at":1785442740,"src":"corus"}
+{"s":"dave-1075-kitchener","a":"Aerosmith","t":"Sweet Emotion","at":1785443160,"src":"corus"}
+{"s":"dave-1075-kitchener","a":"Theory Of A Deadman","t":"Barricade","at":1785443460,"src":"corus"}
+{"s":"dave-1075-kitchener","a":"Blink-182","t":"All The Small Things","at":1785443760,"src":"corus"}
+{"s":"dave-1075-kitchener","a":"The Sheepdogs","t":"Feeling Good","at":1785443940,"src":"corus"}
+{"s":"dave-1075-kitchener","a":"Foo Fighters","t":"This Is A Call","at":1785444240,"src":"corus"}
+{"s":"dave-1075-kitchener","a":"Def Leppard","t":"Animal","at":1785444660,"src":"corus"}
+{"s":"dave-1075-kitchener","a":"Red Hot Chili Peppers","t":"By The Way","at":1785444960,"src":"corus"}
+{"s":"dave-1075-kitchener","a":"Judas Priest","t":"You've Got Another Thing","at":1785445200,"src":"corus"}
+{"s":"dave-1075-kitchener","a":"Sam Roberts Band","t":"Don't Walk Away Eileen","at":1785445440,"src":"corus"}
+{"s":"beat-915-kitchener","a":"Sombr","t":"Homewrecker","at":1785443400,"src":"corus"}
+{"s":"beat-915-kitchener","a":"Olivia Dean","t":"Man I Need","at":1785443580,"src":"corus"}
+{"s":"beat-915-kitchener","a":"Felix Cartal \u0026 Fionn","t":"The Way","at":1785443820,"src":"corus"}
+{"s":"beat-915-kitchener","a":"Nelly \u0026 Kelly Rowland","t":"Dilemma","at":1785444000,"src":"corus"}
+{"s":"beat-915-kitchener","a":"Alex Porat","t":"Kissing You","at":1785444360,"src":"corus"}
+{"s":"beat-915-kitchener","a":"Beyonce Ft. Jay-Z","t":"Crazy In Love","at":1785444780,"src":"corus"}
+{"s":"beat-915-kitchener","a":"Tate McRae","t":"You Broke Me First","at":1785445020,"src":"corus"}
+{"s":"beat-915-kitchener","a":"Alex Warren","t":"Fever Dream","at":1785445140,"src":"corus"}
+{"s":"beat-915-kitchener","a":"Jamie Fine","t":"If Anything's Left","at":1785445320,"src":"corus"}
+{"s":"beat-915-kitchener","a":"Macklemore \u0026 Ryan Lewis","t":"Thrift Shop","at":1785445500,"src":"corus"}
+{"s":"fm96-london","a":"Foo Fighters","t":"This Is A Call","at":1785444000,"src":"corus"}
+{"s":"fm96-london","a":"Foo Fighters","t":"This Is A Call","at":1785444000,"src":"corus"}
+{"s":"fm96-london","a":"Def Leppard","t":"Animal","at":1785444540,"src":"corus"}
+{"s":"fm96-london","a":"Def Leppard","t":"Animal","at":1785444600,"src":"corus"}
+{"s":"fm96-london","a":"Red Hot Chili Peppers","t":"By The Way","at":1785444840,"src":"corus"}
+{"s":"fm96-london","a":"Red Hot Chili Peppers","t":"By The Way","at":1785444840,"src":"corus"}
+{"s":"fm96-london","a":"Staind","t":"It's Been Awhile","at":1785445020,"src":"corus"}
+{"s":"fm96-london","a":"Staind","t":"It's Been Awhile","at":1785445020,"src":"corus"}
+{"s":"fm96-london","a":"Judas Priest","t":"You've Got Another Thing","at":1785445320,"src":"corus"}
+{"s":"fm96-london","a":"Judas Priest","t":"You've Got Another Thing","at":1785445320,"src":"corus"}
+{"s":"boom-997-ottawa","a":"Tom Petty","t":"Free Fallin'","at":1785442920,"src":"corus"}
+{"s":"boom-997-ottawa","a":"Odds","t":"It Falls Apart","at":1785443160,"src":"corus"}
+{"s":"boom-997-ottawa","a":"Supertramp","t":"Goodbye Stranger","at":1785443400,"src":"corus"}
+{"s":"boom-997-ottawa","a":"Luba","t":"Everytime I See Your Picture","at":1785443700,"src":"corus"}
+{"s":"boom-997-ottawa","a":"Cyndi Lauper","t":"Girls Just Want To Have Fun","at":1785443940,"src":"corus"}
+{"s":"boom-997-ottawa","a":"Scorpions","t":"Rock You Like A Hurricane","at":1785444180,"src":"corus"}
+{"s":"boom-997-ottawa","a":"Blue Rodeo","t":"Til I Am Myself Again","at":1785444660,"src":"corus"}
+{"s":"boom-997-ottawa","a":"Blondie","t":"One Way Or Another","at":1785444900,"src":"corus"}
+{"s":"boom-997-ottawa","a":"Great Big Sea","t":"When I'm Up (I Can't Get Down)","at":1785445140,"src":"corus"}
+{"s":"boom-997-ottawa","a":"Toto","t":"Africa","at":1785445320,"src":"corus"}
+{"s":"jump-1069-ottawa","a":"K-5 ft. Hayla","t":"Escape","at":1785443220,"src":"corus"}
+{"s":"jump-1069-ottawa","a":"Sombr","t":"Homewrecker","at":1785443400,"src":"corus"}
+{"s":"jump-1069-ottawa","a":"Olivia Dean","t":"Man I Need","at":1785443640,"src":"corus"}
+{"s":"jump-1069-ottawa","a":"Felix Cartal \u0026 Fionn","t":"The Way","at":1785443820,"src":"corus"}
+{"s":"jump-1069-ottawa","a":"Nelly \u0026 Kelly Rowland","t":"Dilemma","at":1785444000,"src":"corus"}
+{"s":"jump-1069-ottawa","a":"Alex Porat","t":"Kissing You","at":1785444300,"src":"corus"}
+{"s":"jump-1069-ottawa","a":"Beyonce Ft. Jay-Z","t":"Crazy In Love","at":1785444780,"src":"corus"}
+{"s":"jump-1069-ottawa","a":"Charlotte Cardin","t":"99 Nights","at":1785445020,"src":"corus"}
+{"s":"jump-1069-ottawa","a":"Alex Warren","t":"Fever Dream","at":1785445200,"src":"corus"}
+{"s":"jump-1069-ottawa","a":"Jamie Fine","t":"If Anything's Left","at":1785445380,"src":"corus"}
+{"s":"fresh-1005-peterborough","a":"Olivia Dean","t":"Man I Need","at":1785443340,"src":"corus"}
+{"s":"fresh-1005-peterborough","a":"Felix Cartal \u0026 Fionn","t":"The Way","at":1785443520,"src":"corus"}
+{"s":"fresh-1005-peterborough","a":"Nelly \u0026 Kelly Rowland","t":"Dilemma","at":1785443700,"src":"corus"}
+{"s":"fresh-1005-peterborough","a":"Alex Porat","t":"Kissing You","at":1785443940,"src":"corus"}
+{"s":"fresh-1005-peterborough","a":"Icona Pop Ft. Charli XCX","t":"I Love It","at":1785444120,"src":"corus"}
+{"s":"fresh-1005-peterborough","a":"Charlotte Cardin","t":"99 Nights","at":1785444480,"src":"corus"}
+{"s":"fresh-1005-peterborough","a":"Bruno Mars","t":"I Just Might","at":1785444660,"src":"corus"}
+{"s":"fresh-1005-peterborough","a":"Tate McRae","t":"You Broke Me First","at":1785444840,"src":"corus"}
+{"s":"fresh-1005-peterborough","a":"Post Malone Ft. Morgan Wallen","t":"I Had Some Help","at":1785445020,"src":"corus"}
+{"s":"fresh-1005-peterborough","a":"Alex Warren","t":"Fever Dream","at":1785445320,"src":"corus"}
+{"s":"wolf-1015-peterborough","a":"Billy Talent","t":"I Beg To Differ (This Will Get Better)","at":1785442620,"src":"corus"}
+{"s":"wolf-1015-peterborough","a":"Aerosmith","t":"Sweet Emotion","at":1785443100,"src":"corus"}
+{"s":"wolf-1015-peterborough","a":"Theory Of A Deadman","t":"Barricade","at":1785443400,"src":"corus"}
+{"s":"wolf-1015-peterborough","a":"Blink-182","t":"All The Small Things","at":1785443640,"src":"corus"}
+{"s":"wolf-1015-peterborough","a":"The Sheepdogs","t":"Feeling Good","at":1785444060,"src":"corus"}
+{"s":"wolf-1015-peterborough","a":"Foo Fighters","t":"This Is A Call","at":1785444240,"src":"corus"}
+{"s":"wolf-1015-peterborough","a":"Ram Jam","t":"Black Betty","at":1785444480,"src":"corus"}
+{"s":"wolf-1015-peterborough","a":"Red Hot Chili Peppers","t":"By The Way","at":1785444780,"src":"corus"}
+{"s":"wolf-1015-peterborough","a":"The Tragically Hip","t":"Fireworks","at":1785445020,"src":"corus"}
+{"s":"wolf-1015-peterborough","a":"Judas Priest","t":"You've Got Another Thing","at":1785445260,"src":"corus"}
+{"s":"fresh-1031-stthomas","a":"Black Eyed Peas","t":"I Gotta Feeling","at":1785443340,"src":"corus"}
+{"s":"fresh-1031-stthomas","a":"Preston Pablo","t":"Cause I Do","at":1785443580,"src":"corus"}
+{"s":"fresh-1031-stthomas","a":"Lewis Capaldi","t":"Someone You Loved","at":1785443760,"src":"corus"}
+{"s":"fresh-1031-stthomas","a":"Shawn Desman \u0026 Jamie Fine","t":"Body","at":1785443940,"src":"corus"}
+{"s":"fresh-1031-stthomas","a":"Shaggy","t":"Angel","at":1785444480,"src":"corus"}
+{"s":"fresh-1031-stthomas","a":"Alex Warren","t":"Fever Dream","at":1785444660,"src":"corus"}
+{"s":"fresh-1031-stthomas","a":"Swedish House Mafia Ft. The Weeknd","t":"Moth To A Flame","at":1785444840,"src":"corus"}
+{"s":"fresh-1031-stthomas","a":"Billie Eilish","t":"Birds Of A Feather","at":1785444960,"src":"corus"}
+{"s":"fresh-1031-stthomas","a":"Sabrina Carpenter","t":"Espresso","at":1785445200,"src":"corus"}
+{"s":"fresh-1031-stthomas","a":"Felix Cartal","t":"Get What You Give","at":1785445380,"src":"corus"}
+{"s":"rock-101-vancouver","a":"Heart","t":"Magic Man","at":1785441960,"src":"corus"}
+{"s":"rock-101-vancouver","a":"The Smashing Pumpkins","t":"1979","at":1785442380,"src":"corus"}
+{"s":"rock-101-vancouver","a":"John Mellencamp","t":"Hurts So Good","at":1785442860,"src":"corus"}
+{"s":"rock-101-vancouver","a":"Queen","t":"Another One Bites The Dust","at":1785443340,"src":"corus"}
+{"s":"rock-101-vancouver","a":"Joe Cocker","t":"Feelin' Alright","at":1785443640,"src":"corus"}
+{"s":"rock-101-vancouver","a":"Kim Mitchell","t":"Go For Soda","at":1785443820,"src":"corus"}
+{"s":"rock-101-vancouver","a":"Boz Scaggs","t":"Lido Shuffle","at":1785444060,"src":"corus"}
+{"s":"rock-101-vancouver","a":"Def Leppard","t":"Rock of Ages","at":1785444300,"src":"corus"}
+{"s":"rock-101-vancouver","a":"Foreigner","t":"Cold As Ice","at":1785444840,"src":"corus"}
+{"s":"rock-101-vancouver","a":"Eurythmics","t":"Here Comes The Rain Again","at":1785445320,"src":"corus"}
+{"s":"cfox-vancouver","a":"The Offspring","t":"Self Esteem","at":1785442080,"src":"corus"}
+{"s":"cfox-vancouver","a":"Alanis Morissette","t":"Hand In My Pocket","at":1785442380,"src":"corus"}
+{"s":"cfox-vancouver","a":"INXS","t":"What You Need","at":1785442560,"src":"corus"}
+{"s":"cfox-vancouver","a":"Bush","t":"Chemicals Between Us","at":1785442860,"src":"corus"}
+{"s":"cfox-vancouver","a":"Radiohead","t":"Just","at":1785443580,"src":"corus"}
+{"s":"cfox-vancouver","a":"Jimi","t":"Leather Jacket","at":1785443820,"src":"corus"}
+{"s":"cfox-vancouver","a":"Nirvana","t":"Polly","at":1785444060,"src":"corus"}
+{"s":"cfox-vancouver","a":"Metric","t":"Dead Disco","at":1785444540,"src":"corus"}
+{"s":"cfox-vancouver","a":"Foo Fighters","t":"Everlong","at":1785444780,"src":"corus"}
+{"s":"cfox-vancouver","a":"Billy Idol","t":"White Wedding","at":1785445020,"src":"corus"}
+{"s":"power-97-winnipeg","a":"Red Hot Chili Peppers","t":"By The Way","at":1785443280,"src":"corus"}
+{"s":"power-97-winnipeg","a":"U2","t":"Desire","at":1785443520,"src":"corus"}
+{"s":"power-97-winnipeg","a":"Sheryl Crow","t":"If It Makes You Happy","at":1785443700,"src":"corus"}
+{"s":"power-97-winnipeg","a":"The Sheepdogs","t":"I Don't Know","at":1785443940,"src":"corus"}
+{"s":"power-97-winnipeg","a":"Blink-182","t":"All The Small Things","at":1785444360,"src":"corus"}
+{"s":"power-97-winnipeg","a":"The Strumbellas","t":"Spirits","at":1785444540,"src":"corus"}
+{"s":"power-97-winnipeg","a":"Audioslave","t":"I Am The Highway","at":1785444780,"src":"corus"}
+{"s":"power-97-winnipeg","a":"The Tragically Hip","t":"Fireworks","at":1785445080,"src":"corus"}
+{"s":"power-97-winnipeg","a":"The Offspring","t":"The Kids Aren't Alright","at":1785445320,"src":"corus"}
+{"s":"power-97-winnipeg","a":"The Glorious Sons","t":"Mama","at":1785445500,"src":"corus"}
+{"s":"country-104-woodstock","a":"Morgan Wallen","t":"Don't We","at":1785442860,"src":"corus"}
+{"s":"country-104-woodstock","a":"Gord Bamford","t":"Drink Along Song","at":1785443100,"src":"corus"}
+{"s":"country-104-woodstock","a":"Bailey Zimmerman","t":"Chevy Silverado","at":1785443280,"src":"corus"}
+{"s":"country-104-woodstock","a":"The Reklaws / Dean Brody","t":"Hometown Heroes","at":1785443520,"src":"corus"}
+{"s":"country-104-woodstock","a":"Sugarland","t":"Baby Girl","at":1785443760,"src":"corus"}
+{"s":"country-104-woodstock","a":"Taylor Swift","t":"I Knew It, I Knew You","at":1785444360,"src":"corus"}
+{"s":"country-104-woodstock","a":"Jackson Dean","t":"Make A Liar","at":1785444540,"src":"corus"}
+{"s":"country-104-woodstock","a":"High Valley","t":"Whatever It Takes","at":1785444720,"src":"corus"}
+{"s":"country-104-woodstock","a":"Lainey Wilson","t":"Can't Sit Still","at":1785444900,"src":"corus"}
+{"s":"country-104-woodstock","a":"Tyler Joe Miller","t":"Under The Influence","at":1785445320,"src":"corus"}
